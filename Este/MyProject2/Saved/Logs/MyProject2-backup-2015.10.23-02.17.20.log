@@ -1,0 +1,826 @@
+﻿[2015.10.22-23.21.31:144][  0]Log file open, 10/23/15 01:21:31
+[2015.10.22-23.21.31:144][  0]LogInit:Display: Running engine for game: MyProject2
+[2015.10.22-23.21.31:144][  0]LogInit:Display: RandInit(2018425949) SRandInit(2018425949).
+[2015.10.22-23.21.31:144][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.22-23.21.31:144][  0]LogStats: Stats thread started at 0.122803
+[2015.10.22-23.21.31:144][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.22-23.21.31:144][  0]LogInit: API Version: 2672455
+[2015.10.22-23.21.31:144][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.22-23.21.31:144][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.22-23.21.31:144][  0]LogInit: Build Configuration: Development
+[2015.10.22-23.21.31:144][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.22-23.21.31:144][  0]LogInit: Command line:  
+[2015.10.22-23.21.31:144][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.22-23.21.31:144][  0]LogInit: Rocket: 1
+[2015.10.22-23.21.31:190][  0]LogInit: Using libcurl 7.41.0
+[2015.10.22-23.21.31:190][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.22-23.21.31:190][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.22-23.21.31:190][  0]LogInit:  - other features:
+[2015.10.22-23.21.31:190][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.22-23.21.31:190][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.22-23.21.31:190][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.22-23.21.31:190][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.22-23.21.31:190][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.22-23.21.31:190][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.22-23.21.31:190][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.22-23.21.31:190][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.22-23.21.31:190][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.22-23.21.31:190][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.22-23.21.31:253][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.22-23.21.31:258][  0]LogInit: Object subsystem initialized
+[2015.10.22-23.21.31:259][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.22-23.21.31:259][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.22-23.21.31:270][  0]LogInit: Computer: REIIZDESKTOP
+[2015.10.22-23.21.31:270][  0]LogInit: User: liliu
+[2015.10.22-23.21.31:270][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.22-23.21.31:270][  0]LogInit: High frequency timer resolution =3.906248 MHz
+[2015.10.22-23.21.31:270][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.22-23.21.31:270][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.22-23.21.31:270][  0]LogMemory: Process Physical Memory: 54.01 MB used, 54.01 MB peak
+[2015.10.22-23.21.31:270][  0]LogMemory: Process Virtual Memory: 55.32 MB used, 55.32 MB peak
+[2015.10.22-23.21.31:270][  0]LogMemory: Physical Memory: 3108.71 MB used, 8052.93 MB total
+[2015.10.22-23.21.31:270][  0]LogMemory: Virtual Memory: 364.52 MB used, 134217728.00 MB total
+[2015.10.22-23.21.31:644][  0]LogTextLocalizationManager: No specific translations for ('en-150') exist, so ('en') translations will be used.
+[2015.10.22-23.21.32:262][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7900 Series (Feature Level 11_0)
+[2015.10.22-23.21.32:262][  0]LogD3D11RHI: Adapter has 3050MB of dedicated video memory, 0MB of dedicated system memory, and 4026MB of shared system memory, 2 output[s]
+[2015.10.22-23.21.32:286][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.10.22-23.21.32:286][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4026MB of shared system memory, 0 output[s]
+[2015.10.22-23.21.32:287][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.22-23.21.32:287][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4026MB of shared system memory, 0 output[s]
+[2015.10.22-23.21.32:287][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.22-23.21.32:290][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.22-23.21.32:290][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.22-23.21.32:295][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.10.22-23.21.32:305][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../MyGAMES/MyProject2/Intermediate/Shaders/WorkingDirectory/4892/).
+[2015.10.22-23.21.32:305][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../MyGAMES/MyProject2/Intermediate/Shaders/tmp/84C7186F453C0BD70FDA61857EE2168F/'.
+[2015.10.22-23.21.32:305][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.22-23.21.33:861][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.22-23.21.33:865][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.22-23.21.33:869][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.22-23.21.33:873][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.22-23.21.33:876][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.22-23.21.33:880][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.22-23.21.33:882][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.22-23.21.33:885][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.22-23.21.33:887][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.22-23.21.33:890][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.22-23.21.33:892][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.22-23.21.33:895][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.22-23.21.33:896][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.22-23.21.33:988][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.22-23.21.33:998][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.22-23.21.34:007][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.22-23.21.34:017][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.22-23.21.34:017][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.22-23.21.34:534][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.22-23.21.34:600][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/liliu/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.22-23.21.34:600][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/liliu/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.22-23.21.34:601][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MyGAMES/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.22-23.21.34:601][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.22-23.21.34:601][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MyGAMES/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.22-23.21.34:601][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.22-23.21.34:719][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.22-23.21.34:730][  0]LogDerivedDataCache: Using Local data cache path C:/Users/liliu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.22-23.21.41:090][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.22-23.21.41:092][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.22-23.21.41:203][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.22-23.21.41:203][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.22-23.21.41:421][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.22-23.21.42:364][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.22-23.21.42:464][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.10.22-23.21.42:584][  0]SourceControl: Info Source control is disabled
+[2015.10.22-23.21.42:586][  0]SourceControl: Info Source control is disabled
+[2015.10.22-23.21.42:593][  0]SourceControl: Info Source control is disabled
+[2015.10.22-23.21.42:599][  0]SourceControl: Info Source control is disabled
+[2015.10.22-23.21.42:706][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.22-23.21.42:846][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.22-23.21.42:846][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.10.22-23.21.42:890][  0]LogEngine: Initializing Engine...
+[2015.10.22-23.21.42:892][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.22-23.21.42:904][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.22-23.21.42:993][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.22-23.21.43:003][  0]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.21.43:008][  0]LogInit: FAudioDevice initialized.
+[2015.10.22-23.21.43:025][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/liliu/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.22-23.21.43:029][  0]LogInit: Texture streaming: Enabled
+[2015.10.22-23.21.43:033][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.22-23.21.43:033][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.22-23.21.43:033][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 71602e434846f1ec325ce9888374f8e1|8083a3ab479f42fd888931546077b44c|d0992da6-e7c3-4808-adbd-9ac2ef65295b
+[2015.10.22-23.21.43:033][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.22-23.21.43:056][  0]LogInit: Transaction tracking system initialized
+[2015.10.22-23.21.43:077][  0]BlueprintLog: New page: Editor Load
+[2015.10.22-23.21.43:146][  0]LocalizationService: Info Localization service is disabled
+[2015.10.22-23.21.43:212][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2015.10.22-23.21.43:212][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2015.10.22-23.21.43:212][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2015.10.22-23.21.43:223][  0]LogConsoleResponse:Display: 
+[2015.10.22-23.21.43:309][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.22-23.21.43:353][  0]LogFileCache: Scanning file cache for directory 'D:/MyGAMES/MyProject2/Content/' took 0.01s
+[2015.10.22-23.21.43:353][  0]SourceControl: Info Source control is disabled
+[2015.10.22-23.21.43:353][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.22-23.21.43:355][  0]LightingResults: New page: Lighting Build
+[2015.10.22-23.21.43:357][  0]MapCheck: New page: Map Check
+[2015.10.22-23.21.43:357][  0]LightingResults: New page: Lighting Build
+[2015.10.22-23.21.43:366][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005D9D055DA0
+[2015.10.22-23.21.43:541][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.10.22-23.21.43:546][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.22-23.21.43:569][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.22-23.21.43:597][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27,97ms to complete.
+[2015.10.22-23.21.43:597][  0]LogFileHelpers: Loading map 'Template_Default' took 0.245
+[2015.10.22-23.21.43:714][  0]LogCollectionManager: Loaded 0 collections in 0.001819 seconds
+[2015.10.22-23.21.43:752][  0]LogFileCache: Scanning file cache for directory 'D:/MyGAMES/MyProject2/Saved/Collections/' took 0.01s
+[2015.10.22-23.21.43:752][  0]LogFileCache: Scanning file cache for directory 'D:/MyGAMES/MyProject2/Content/Developers/liliu/Collections/' took 0.01s
+[2015.10.22-23.21.43:752][  0]LogFileCache: Scanning file cache for directory 'D:/MyGAMES/MyProject2/Content/Collections/' took 0.01s
+[2015.10.22-23.21.43:752][  0]LogContentBrowser: Native class hierarchy populated in 0.0053 seconds. Added 1868 classes and 336 folders.
+[2015.10.22-23.21.43:757][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.22-23.21.43:762][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.10.22-23.21.43:897][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.22-23.21.43:899][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.10.22-23.21.43:939][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.22-23.21.43:941][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.22-23.21.43:964][  0]LogLoad: Full Startup: 13.81 seconds (BP compile: 0.04 seconds)
+[2015.10.22-23.21.44:035][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.22-23.21.44:140][  0]LogRenderer: Reallocating scene render targets to support 1244x608 (Frame:2).
+[2015.10.22-23.21.44:472][  3]LogAssetRegistry: Asset discovery search completed in 2.0200 seconds
+[2015.10.22-23.21.44:472][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.22-23.21.44:472][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2015.10.22-23.21.47:072][279]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.22-23.21.47:435][279]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2015.10.22-23.22.10:155][ 41]LogRenderer: Reallocating scene render targets to support 1280x712 (Frame:273).
+[2015.10.22-23.23.34:337][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-23.23.34:357][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DC5C2EAC0
+[2015.10.22-23.23.40:445][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-23.23.49:616][436]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_CameraActor_Blueprint_C_0' or package '/Engine/Transient'.
+[2015.10.22-23.23.49:616][436]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_CameraActor_Blueprint_C_1' or package '/Engine/Transient'.
+[2015.10.22-23.23.49:616][436]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_CameraActor_Blueprint_C_28' or package '/Engine/Transient'.
+[2015.10.22-23.23.49:616][436]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_CameraActor_Blueprint_C_27' or package '/Engine/Transient'.
+[2015.10.22-23.24.15:821][878]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-23.27.07:228][ 48]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.27.07:236][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-23.27.07:260][ 48]Cmd: MAP LOAD FILE="../../../../../../MyGAMES/MyProject2/Content/MainLVL.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.22-23.27.07:260][ 48]LightingResults: New page: Lighting Build
+[2015.10.22-23.27.07:272][ 48]LoadErrors: New page: Loading map: MainLVL.umap
+[2015.10.22-23.27.07:272][ 48]MapCheck: New page: Map Check
+[2015.10.22-23.27.07:272][ 48]LightingResults: New page: Lighting Build
+[2015.10.22-23.27.07:288][ 48]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005D8F2EB880
+[2015.10.22-23.27.07:496][ 48]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.22-23.27.07:527][ 48]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.22-23.27.07:563][ 48]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 35,792ms to complete.
+[2015.10.22-23.27.07:563][ 48]LogFileHelpers: Loading map 'MainLVL' took 0.305
+[2015.10.22-23.27.07:582][ 49]Cmd: UpdateLandscapeEditorData -warnings
+[2015.10.22-23.27.07:583][ 49]Cmd: UpdateLandscapeEditorData
+[2015.10.22-23.27.08:627][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-23.28.01:271][407]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2015.10.22-23.28.03:463][662]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.28.03:463][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.28.03:464][662]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:28:03)
+[2015.10.22-23.28.03:464][662]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.28.03:475][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010809s)
+[2015.10.22-23.28.03:475][662]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.28.03:476][662]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2015.10.22-23.28.03:476][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.012144s)
+[2015.10.22-23.28.03:476][662]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-23.28.03:506][662]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.28.03:510][662]LogInit: FAudioDevice initialized.
+[2015.10.22-23.28.03:552][662]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.28.03:561][662]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.28.03
+[2015.10.22-23.28.03:561][662]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.28.03:561][662]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.28.03:561][662]LogWorld: Bringing up level for play took: 0.008550
+[2015.10.22-23.28.03:563][662]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,681
+[2015.10.22-23.28.03:563][662]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.28.38:605][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.28.38:649][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.28.38:649][667]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-23.28.38:667][667]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DFCEA00E0
+[2015.10.22-23.28.45:832][521]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.28.45:887][521]BlueprintEditorCompileResults: Info [0435,74] Compile of Ball_Blueprint successful! [in 54 ms]
+[2015.10.22-23.28.47:808][747]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.28.47:808][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.28.47:808][747]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:28:47)
+[2015.10.22-23.28.47:808][747]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.28.47:818][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009855s)
+[2015.10.22-23.28.47:819][747]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.28.47:819][747]LogPlayLevel: PIE: World Init took: (0.000515s)
+[2015.10.22-23.28.47:819][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010514s)
+[2015.10.22-23.28.47:846][747]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.28.47:849][747]LogInit: FAudioDevice initialized.
+[2015.10.22-23.28.47:878][747]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.28.47:888][747]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.28.47
+[2015.10.22-23.28.47:888][747]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.28.47:888][747]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.28.47:888][747]LogWorld: Bringing up level for play took: 0.009032
+[2015.10.22-23.28.47:890][747]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,354
+[2015.10.22-23.28.47:890][747]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.29.10:514][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.29.10:560][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.29.10:577][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DBB964680
+[2015.10.22-23.29.41:922][207]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.29.41:974][207]BlueprintEditorCompileResults: Info [0491,82] Compile of Ball_Blueprint successful! [in 51 ms]
+[2015.10.22-23.29.43:216][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.29.43:216][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.29.43:216][352]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:29:43)
+[2015.10.22-23.29.43:217][352]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.29.43:226][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009018s)
+[2015.10.22-23.29.43:226][352]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.29.43:226][352]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2015.10.22-23.29.43:226][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.009708s)
+[2015.10.22-23.29.43:252][352]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.29.43:256][352]LogInit: FAudioDevice initialized.
+[2015.10.22-23.29.43:286][352]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.29.43:295][352]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.29.43
+[2015.10.22-23.29.43:295][352]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.29.43:295][352]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.29.43:295][352]LogWorld: Bringing up level for play took: 0.008381
+[2015.10.22-23.29.43:297][352]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 1,053
+[2015.10.22-23.29.43:297][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.30.09:154][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.30.09:191][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.30.09:208][451]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DA1CFC9A0
+[2015.10.22-23.30.43:165][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-23.33.03:889][415]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.33.03:895][415]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/MainLVL.MainLVL:PersistentLevel.Ball_Blueprint_C_4.StaticMeshComponent0 and StaticMeshComponent /Game/MainLVL.MainLVL:PersistentLevel.Ball_Blueprint_C_0.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-23.33.03:953][415]BlueprintEditorCompileResults: Info [0693,80] Compile of Ball_Blueprint successful! [in 64 ms]
+[2015.10.22-23.33.06:181][676]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.33.06:181][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.33.06:181][676]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:33:06)
+[2015.10.22-23.33.06:181][676]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.33.06:190][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009439s)
+[2015.10.22-23.33.06:191][676]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.33.06:191][676]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2015.10.22-23.33.06:191][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010196s)
+[2015.10.22-23.33.06:218][676]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.33.06:222][676]LogInit: FAudioDevice initialized.
+[2015.10.22-23.33.06:250][676]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.33.06:259][676]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.33.06
+[2015.10.22-23.33.06:259][676]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.33.06:259][676]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.33.06:260][676]LogWorld: Bringing up level for play took: 0.008746
+[2015.10.22-23.33.06:261][676]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0,018
+[2015.10.22-23.33.06:261][676]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.34.28:298][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.34.28:338][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.34.28:356][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DDC849B20
+[2015.10.22-23.34.38:847][358]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Ball_Blueprint', cached variable property's owner is '/Game/Blueprints/Ball_Blueprint.SKEL_Ball_Blueprint_C'
+[2015.10.22-23.34.45:279][115]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Ball_Blueprint', cached variable property's owner is '/Game/Blueprints/Ball_Blueprint.SKEL_Ball_Blueprint_C'
+[2015.10.22-23.34.54:801][255]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.34.54:852][255]BlueprintEditorCompileResults: Info [0804,70] Compile of Ball_Blueprint successful! [in 51 ms]
+[2015.10.22-23.35.23:632][308]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.35.23:688][308]BlueprintEditorCompileResults: Info [0833,54] Compile of Ball_Blueprint successful! [in 56 ms]
+[2015.10.22-23.35.25:831][560]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.35.25:831][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.35.25:832][560]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:35:25)
+[2015.10.22-23.35.25:832][560]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.35.25:841][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009877s)
+[2015.10.22-23.35.25:842][560]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.35.25:842][560]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2015.10.22-23.35.25:842][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010639s)
+[2015.10.22-23.35.25:871][560]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.35.25:875][560]LogInit: FAudioDevice initialized.
+[2015.10.22-23.35.25:910][560]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.35.25:919][560]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.35.25
+[2015.10.22-23.35.25:919][560]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.35.25:919][560]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.35.25:919][560]LogWorld: Bringing up level for play took: 0.008216
+[2015.10.22-23.35.25:921][560]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,322
+[2015.10.22-23.35.25:921][560]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.35.31:615][243]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.35.31:654][243]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.35.31:673][243]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005D8DD4EA20
+[2015.10.22-23.36.16:285][502]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.36.16:337][502]BlueprintEditorCompileResults: Info [0886,19] Compile of Ball_Blueprint successful! [in 51 ms]
+[2015.10.22-23.36.17:813][677]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.36.17:813][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.36.17:813][677]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:36:17)
+[2015.10.22-23.36.17:813][677]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.36.17:822][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009453s)
+[2015.10.22-23.36.17:823][677]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.36.17:823][677]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2015.10.22-23.36.17:823][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010126s)
+[2015.10.22-23.36.17:849][677]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.36.17:853][677]LogInit: FAudioDevice initialized.
+[2015.10.22-23.36.17:887][677]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.36.17:896][677]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.36.17
+[2015.10.22-23.36.17:896][677]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.36.17:896][677]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.36.17:896][677]LogWorld: Bringing up level for play took: 0.008462
+[2015.10.22-23.36.17:898][677]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,346
+[2015.10.22-23.36.17:898][677]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.36.22:816][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.36.22:860][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.36.22:878][267]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DC79825C0
+[2015.10.22-23.36.36:219][747]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.36.36:271][747]BlueprintEditorCompileResults: Info [0906,12] Compile of Ball_Blueprint successful! [in 52 ms]
+[2015.10.22-23.36.37:680][911]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.36.37:680][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.36.37:680][911]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:36:37)
+[2015.10.22-23.36.37:680][911]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.36.37:690][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009339s)
+[2015.10.22-23.36.37:690][911]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.36.37:690][911]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2015.10.22-23.36.37:690][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010181s)
+[2015.10.22-23.36.37:717][911]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.36.37:721][911]LogInit: FAudioDevice initialized.
+[2015.10.22-23.36.37:750][911]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.36.37:760][911]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.36.37
+[2015.10.22-23.36.37:760][911]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.36.37:760][911]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.36.37:760][911]LogWorld: Bringing up level for play took: 0.008375
+[2015.10.22-23.36.37:762][911]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,481
+[2015.10.22-23.36.37:762][911]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.36.46:331][937]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.36.46:373][937]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.36.46:390][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005D96166340
+[2015.10.22-23.37.00:592][444]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.37.00:649][444]BlueprintEditorCompileResults: Info [0930,50] Compile of Ball_Blueprint successful! [in 56 ms]
+[2015.10.22-23.37.03:062][726]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.03:062][726]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.37.03:062][726]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:37:03)
+[2015.10.22-23.37.03:062][726]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.37.03:071][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009415s)
+[2015.10.22-23.37.03:072][726]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.37.03:072][726]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2015.10.22-23.37.03:072][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010193s)
+[2015.10.22-23.37.03:100][726]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.37.03:104][726]LogInit: FAudioDevice initialized.
+[2015.10.22-23.37.03:134][726]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.37.03:143][726]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.37.03
+[2015.10.22-23.37.03:143][726]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.37.03:143][726]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.37.03:143][726]LogWorld: Bringing up level for play took: 0.008364
+[2015.10.22-23.37.03:145][726]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0,902
+[2015.10.22-23.37.03:145][726]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.10:215][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.10:258][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.10:276][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DAB313B00
+[2015.10.22-23.37.17:203][322]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.37.17:256][322]BlueprintEditorCompileResults: Info [0947,11] Compile of Ball_Blueprint successful! [in 53 ms]
+[2015.10.22-23.37.18:215][432]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.18:215][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.37.18:215][432]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:37:18)
+[2015.10.22-23.37.18:215][432]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.37.18:224][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008735s)
+[2015.10.22-23.37.18:225][432]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.37.18:225][432]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2015.10.22-23.37.18:225][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.009540s)
+[2015.10.22-23.37.18:252][432]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.37.18:255][432]LogInit: FAudioDevice initialized.
+[2015.10.22-23.37.18:293][432]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.37.18:302][432]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.37.18
+[2015.10.22-23.37.18:302][432]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.37.18:302][432]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.37.18:302][432]LogWorld: Bringing up level for play took: 0.008479
+[2015.10.22-23.37.18:312][432]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0,069
+[2015.10.22-23.37.18:313][432]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.18:323][433]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:42804).
+[2015.10.22-23.37.22:846][974]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.22:902][974]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.22:920][974]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005D91CD93A0
+[2015.10.22-23.37.30:026][757]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.37.30:078][757]BlueprintEditorCompileResults: Info [0959,93] Compile of Ball_Blueprint successful! [in 52 ms]
+[2015.10.22-23.37.30:462][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ball_Blueprint" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/Ball_Blueprint.uasset" SILENT=true
+[2015.10.22-23.37.30:520][796]LogSavePackage: Save=50.808090ms
+[2015.10.22-23.37.30:520][796]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/Ball_Blueprint4F3663034EF1702731BF8BBC34A9F0AB.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/Ball_Blueprint.uasset'
+[2015.10.22-23.37.30:521][796]LogSavePackage: Total save time: 58.277663ms
+[2015.10.22-23.37.30:521][796]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/Ball_Blueprint.uasset
+[2015.10.22-23.37.31:902][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.31:902][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.37.31:902][960]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:37:31)
+[2015.10.22-23.37.31:903][960]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.37.31:911][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008796s)
+[2015.10.22-23.37.31:912][960]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.37.31:912][960]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2015.10.22-23.37.31:912][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.009518s)
+[2015.10.22-23.37.31:938][960]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.37.31:942][960]LogInit: FAudioDevice initialized.
+[2015.10.22-23.37.31:971][960]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.37.31:981][960]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.37.31
+[2015.10.22-23.37.31:981][960]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.37.31:981][960]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.37.31:981][960]LogWorld: Bringing up level for play took: 0.008871
+[2015.10.22-23.37.31:983][960]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,261
+[2015.10.22-23.37.31:983][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.35:301][358]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.35:341][358]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.37.35:359][358]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DCAE799E0
+[2015.10.22-23.37.59:192][873]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.37.59:246][873]BlueprintEditorCompileResults: Info [0989,10] Compile of Ball_Blueprint successful! [in 54 ms]
+[2015.10.22-23.38.01:275][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.01:275][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.38.01:275][107]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:38:01)
+[2015.10.22-23.38.01:275][107]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.38.01:284][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008966s)
+[2015.10.22-23.38.01:285][107]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.38.01:285][107]LogPlayLevel: PIE: World Init took: (0.000502s)
+[2015.10.22-23.38.01:285][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.009596s)
+[2015.10.22-23.38.01:311][107]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.38.01:314][107]LogInit: FAudioDevice initialized.
+[2015.10.22-23.38.01:344][107]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.38.01:353][107]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.38.01
+[2015.10.22-23.38.01:353][107]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.38.01:353][107]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.38.01:353][107]LogWorld: Bringing up level for play took: 0.008551
+[2015.10.22-23.38.01:355][107]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,889
+[2015.10.22-23.38.01:355][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.16:007][163]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.16:047][163]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.16:065][163]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005D91CDB2E0
+[2015.10.22-23.38.41:296][541]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.38.41:348][541]BlueprintEditorCompileResults: Info [1031,20] Compile of Ball_Blueprint successful! [in 52 ms]
+[2015.10.22-23.38.42:057][621]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.42:057][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.38.42:057][621]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:38:42)
+[2015.10.22-23.38.42:057][621]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.38.42:066][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008698s)
+[2015.10.22-23.38.42:067][621]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.38.42:067][621]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2015.10.22-23.38.42:067][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.009381s)
+[2015.10.22-23.38.42:094][621]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.38.42:097][621]LogInit: FAudioDevice initialized.
+[2015.10.22-23.38.42:136][621]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.38.42:145][621]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.38.42
+[2015.10.22-23.38.42:145][621]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.38.42:145][621]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.38.42:145][621]LogWorld: Bringing up level for play took: 0.008791
+[2015.10.22-23.38.42:156][621]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,088
+[2015.10.22-23.38.42:156][621]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.45:827][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.45:883][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.45:901][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DCFB54400
+[2015.10.22-23.38.47:876][288]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.47:876][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.38.47:877][288]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:38:47)
+[2015.10.22-23.38.47:877][288]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.38.47:885][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009179s)
+[2015.10.22-23.38.47:885][288]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.38.47:886][288]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2015.10.22-23.38.47:886][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.009967s)
+[2015.10.22-23.38.47:911][288]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.38.47:915][288]LogInit: FAudioDevice initialized.
+[2015.10.22-23.38.47:949][288]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.38.47:958][288]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.38.47
+[2015.10.22-23.38.47:958][288]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.38.47:958][288]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.38.47:958][288]LogWorld: Bringing up level for play took: 0.008540
+[2015.10.22-23.38.47:960][288]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,283
+[2015.10.22-23.38.47:960][288]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.50:419][581]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.50:462][581]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.38.50:494][582]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005D91E3A340
+[2015.10.22-23.39.10:579][964]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.39.10:632][964]BlueprintEditorCompileResults: Info [1060,48] Compile of Ball_Blueprint successful! [in 52 ms]
+[2015.10.22-23.39.12:313][160]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.39.12:313][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.39.12:313][160]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:39:12)
+[2015.10.22-23.39.12:313][160]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.39.12:323][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010747s)
+[2015.10.22-23.39.12:323][160]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.39.12:324][160]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2015.10.22-23.39.12:324][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.011517s)
+[2015.10.22-23.39.12:351][160]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.39.12:355][160]LogInit: FAudioDevice initialized.
+[2015.10.22-23.39.12:389][160]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.39.12:398][160]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.39.12
+[2015.10.22-23.39.12:398][160]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.39.12:398][160]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.39.12:398][160]LogWorld: Bringing up level for play took: 0.008304
+[2015.10.22-23.39.12:400][160]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0,156
+[2015.10.22-23.39.12:400][160]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.39.15:353][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.39.15:395][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.39.15:412][514]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DC6F69A80
+[2015.10.22-23.39.20:307][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-23.39.24:414][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-23.39.38:130][450]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-23.39.49:175][767]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.39.49:230][767]BlueprintEditorCompileResults: Info [1099,08] Compile of Ball_Blueprint successful! [in 54 ms]
+[2015.10.22-23.39.53:306][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.39.53:307][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.39.53:307][977]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:39:53)
+[2015.10.22-23.39.53:307][977]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.39.53:316][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009709s)
+[2015.10.22-23.39.53:317][977]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.39.53:317][977]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2015.10.22-23.39.53:317][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010463s)
+[2015.10.22-23.39.53:344][977]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.39.53:348][977]LogInit: FAudioDevice initialized.
+[2015.10.22-23.39.53:380][977]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.39.53:389][977]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.39.53
+[2015.10.22-23.39.53:389][977]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.39.53:390][977]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.39.53:390][977]LogWorld: Bringing up level for play took: 0.008876
+[2015.10.22-23.39.53:392][977]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,852
+[2015.10.22-23.39.53:392][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.40.32:680][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.40.32:727][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.40.32:745][691]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DD7175760
+[2015.10.22-23.40.40:914][656]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.40.40:968][656]BlueprintEditorCompileResults: Info [1150,82] Compile of Ball_Blueprint successful! [in 53 ms]
+[2015.10.22-23.40.42:562][842]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.40.42:562][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.40.42:562][842]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:40:42)
+[2015.10.22-23.40.42:562][842]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.40.42:573][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010135s)
+[2015.10.22-23.40.42:573][842]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.40.42:573][842]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2015.10.22-23.40.42:573][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010825s)
+[2015.10.22-23.40.42:599][842]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.40.42:603][842]LogInit: FAudioDevice initialized.
+[2015.10.22-23.40.42:632][842]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.40.42:641][842]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.40.42
+[2015.10.22-23.40.42:641][842]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.40.42:641][842]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.40.42:641][842]LogWorld: Bringing up level for play took: 0.008768
+[2015.10.22-23.40.42:643][842]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0,4
+[2015.10.22-23.40.42:643][842]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.40.50:746][814]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.40.50:793][814]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.40.50:812][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DD578AFC0
+[2015.10.22-23.41.12:919][ 93]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.41.12:973][ 93]BlueprintEditorCompileResults: Info [1182,82] Compile of Ball_Blueprint successful! [in 54 ms]
+[2015.10.22-23.41.14:462][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.41.14:462][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.41.14:462][266]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:41:14)
+[2015.10.22-23.41.14:462][266]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.41.14:472][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009912s)
+[2015.10.22-23.41.14:472][266]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.41.14:472][266]LogPlayLevel: PIE: World Init took: (0.000496s)
+[2015.10.22-23.41.14:473][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010567s)
+[2015.10.22-23.41.14:499][266]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.41.14:503][266]LogInit: FAudioDevice initialized.
+[2015.10.22-23.41.14:535][266]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.41.14:547][266]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.41.14
+[2015.10.22-23.41.14:547][266]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.41.14:547][266]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.41.14:548][266]LogWorld: Bringing up level for play took: 0.011709
+[2015.10.22-23.41.14:551][266]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0,308
+[2015.10.22-23.41.14:552][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.41.29:425][ 49]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.41.29:479][ 49]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.41.29:499][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DC785F060
+[2015.10.22-23.41.36:232][849]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.41.36:285][849]BlueprintEditorCompileResults: Info [1206,13] Compile of Ball_Blueprint successful! [in 52 ms]
+[2015.10.22-23.41.38:085][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.41.38:085][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.41.38:085][ 63]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:41:38)
+[2015.10.22-23.41.38:085][ 63]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.41.38:096][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009424s)
+[2015.10.22-23.41.38:096][ 63]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.41.38:096][ 63]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2015.10.22-23.41.38:096][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010179s)
+[2015.10.22-23.41.38:123][ 63]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.41.38:127][ 63]LogInit: FAudioDevice initialized.
+[2015.10.22-23.41.38:157][ 63]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.41.38:167][ 63]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.41.38
+[2015.10.22-23.41.38:167][ 63]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.41.38:167][ 63]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.41.38:167][ 63]LogWorld: Bringing up level for play took: 0.008567
+[2015.10.22-23.41.38:169][ 63]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,075
+[2015.10.22-23.41.38:169][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.41.54:006][963]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.41.54:056][963]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.41.54:073][963]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DDCC66980
+[2015.10.22-23.43.52:398][558]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.43.52:454][558]BlueprintEditorCompileResults: Info [1342,30] Compile of Ball_Blueprint successful! [in 55 ms]
+[2015.10.22-23.43.53:855][724]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.43.53:855][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.43.53:855][724]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:43:53)
+[2015.10.22-23.43.53:855][724]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.43.53:864][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009553s)
+[2015.10.22-23.43.53:865][724]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.43.53:865][724]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2015.10.22-23.43.53:865][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010319s)
+[2015.10.22-23.43.53:892][724]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.43.53:896][724]LogInit: FAudioDevice initialized.
+[2015.10.22-23.43.53:928][724]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.43.53:938][724]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.43.53
+[2015.10.22-23.43.53:938][724]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.43.53:938][724]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.43.53:938][724]LogWorld: Bringing up level for play took: 0.009257
+[2015.10.22-23.43.53:940][724]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,304
+[2015.10.22-23.43.53:940][724]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.43.57:718][177]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.43.57:767][177]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.43.57:786][177]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DA1968220
+[2015.10.22-23.44.00:660][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ball_Blueprint" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/Ball_Blueprint.uasset" SILENT=true
+[2015.10.22-23.44.00:685][514]LogSavePackage: Save=18.242569ms
+[2015.10.22-23.44.00:685][514]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/Ball_BlueprintAE72130B40E9F23A9D88DBAA908B7C3C.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/Ball_Blueprint.uasset'
+[2015.10.22-23.44.00:687][514]LogSavePackage: Total save time: 25.311243ms
+[2015.10.22-23.44.00:687][514]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/Ball_Blueprint.uasset
+[2015.10.22-23.44.29:648][734]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.44.29:702][734]BlueprintEditorCompileResults: Info [1379,55] Compile of Ball_Blueprint successful! [in 54 ms]
+[2015.10.22-23.44.31:847][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.44.31:847][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.44.31:847][986]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:44:31)
+[2015.10.22-23.44.31:847][986]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.44.31:857][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010235s)
+[2015.10.22-23.44.31:858][986]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.44.31:858][986]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2015.10.22-23.44.31:858][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010923s)
+[2015.10.22-23.44.31:884][986]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.44.31:888][986]LogInit: FAudioDevice initialized.
+[2015.10.22-23.44.31:923][986]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.44.31:932][986]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.44.31
+[2015.10.22-23.44.31:932][986]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.44.31:932][986]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.44.31:932][986]LogWorld: Bringing up level for play took: 0.008459
+[2015.10.22-23.44.31:934][986]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,309
+[2015.10.22-23.44.31:934][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.44.34:412][283]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.44.34:461][283]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.44.34:479][283]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DD57D09A0
+[2015.10.22-23.44.50:384][142]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.44.50:440][142]BlueprintEditorCompileResults: Info [1400,29] Compile of Ball_Blueprint successful! [in 55 ms]
+[2015.10.22-23.44.51:920][314]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.44.51:920][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.44.51:920][314]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:44:51)
+[2015.10.22-23.44.51:920][314]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.44.51:930][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010210s)
+[2015.10.22-23.44.51:931][314]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.44.51:931][314]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2015.10.22-23.44.51:931][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.010889s)
+[2015.10.22-23.44.51:958][314]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.44.51:962][314]LogInit: FAudioDevice initialized.
+[2015.10.22-23.44.51:994][314]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.44.52:003][314]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.44.52
+[2015.10.22-23.44.52:003][314]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.44.52:003][314]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.44.52:004][314]LogWorld: Bringing up level for play took: 0.008614
+[2015.10.22-23.44.52:005][314]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,238
+[2015.10.22-23.44.52:005][314]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.44.58:574][102]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.44.58:622][102]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.44.58:639][102]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DDF16BBA0
+[2015.10.22-23.45.05:253][874]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.45.05:311][874]BlueprintEditorCompileResults: Info [1415,16] Compile of Ball_Blueprint successful! [in 57 ms]
+[2015.10.22-23.45.06:751][ 42]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.45.06:751][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.45.06:751][ 42]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:45:06)
+[2015.10.22-23.45.06:751][ 42]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.45.06:762][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010433s)
+[2015.10.22-23.45.06:762][ 42]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.45.06:762][ 42]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2015.10.22-23.45.06:763][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.011096s)
+[2015.10.22-23.45.06:791][ 42]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.45.06:795][ 42]LogInit: FAudioDevice initialized.
+[2015.10.22-23.45.06:824][ 42]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.45.06:834][ 42]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.45.06
+[2015.10.22-23.45.06:834][ 42]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.45.06:834][ 42]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.45.06:834][ 42]LogWorld: Bringing up level for play took: 0.009010
+[2015.10.22-23.45.06:836][ 42]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0,592
+[2015.10.22-23.45.06:836][ 42]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.45.17:472][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.45.17:528][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.45.17:545][318]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DC52D1A80
+[2015.10.22-23.45.37:803][728]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.45.37:857][728]BlueprintEditorCompileResults: Info [1447,71] Compile of Ball_Blueprint successful! [in 54 ms]
+[2015.10.22-23.45.39:549][926]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.45.39:549][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.45.39:549][926]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:45:39)
+[2015.10.22-23.45.39:549][926]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.45.39:559][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010500s)
+[2015.10.22-23.45.39:560][926]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.45.39:560][926]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2015.10.22-23.45.39:560][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.011159s)
+[2015.10.22-23.45.39:587][926]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.45.39:591][926]LogInit: FAudioDevice initialized.
+[2015.10.22-23.45.39:623][926]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.45.39:632][926]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.45.39
+[2015.10.22-23.45.39:632][926]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.45.39:633][926]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.45.39:633][926]LogWorld: Bringing up level for play took: 0.008748
+[2015.10.22-23.45.39:634][926]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,609
+[2015.10.22-23.45.39:635][926]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.46.09:769][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.46.09:816][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.46.09:836][538]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DD975ADE0
+[2015.10.22-23.46.45:726][267]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.46.45:782][267]BlueprintEditorCompileResults: Info [1515,63] Compile of Ball_Blueprint successful! [in 55 ms]
+[2015.10.22-23.46.47:501][468]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.46.47:501][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.46.47:501][468]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:46:47)
+[2015.10.22-23.46.47:501][468]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.46.47:511][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010280s)
+[2015.10.22-23.46.47:512][468]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.46.47:512][468]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2015.10.22-23.46.47:512][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.011050s)
+[2015.10.22-23.46.47:538][468]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.46.47:542][468]LogInit: FAudioDevice initialized.
+[2015.10.22-23.46.47:577][468]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.46.47:586][468]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.46.47
+[2015.10.22-23.46.47:586][468]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.46.47:586][468]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.46.47:586][468]LogWorld: Bringing up level for play took: 0.008460
+[2015.10.22-23.46.47:588][468]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0,656
+[2015.10.22-23.46.47:588][468]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.46.58:791][812]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.46.58:843][812]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.46.58:861][812]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DED575940
+[2015.10.22-23.47.15:125][747]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.47.15:178][747]BlueprintEditorCompileResults: Info [1545,03] Compile of Ball_Blueprint successful! [in 53 ms]
+[2015.10.22-23.47.17:101][973]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.47.17:101][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.47.17:101][973]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:47:17)
+[2015.10.22-23.47.17:101][973]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.47.17:111][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009081s)
+[2015.10.22-23.47.17:111][973]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.47.17:111][973]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2015.10.22-23.47.17:111][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.009820s)
+[2015.10.22-23.47.17:138][973]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.47.17:141][973]LogInit: FAudioDevice initialized.
+[2015.10.22-23.47.17:171][973]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.47.17:180][973]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.47.17
+[2015.10.22-23.47.17:180][973]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.47.17:180][973]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.47.17:180][973]LogWorld: Bringing up level for play took: 0.008532
+[2015.10.22-23.47.17:182][973]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0,938
+[2015.10.22-23.47.17:182][973]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.47.24:010][792]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.47.24:058][792]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.47.24:079][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005D99790680
+[2015.10.22-23.47.56:075][953]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.47.56:130][953]BlueprintEditorCompileResults: Info [1585,98] Compile of Ball_Blueprint successful! [in 55 ms]
+[2015.10.22-23.48.57:426][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewPhysicalMaterial" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/NewPhysicalMaterial.uasset" SILENT=true
+[2015.10.22-23.48.57:429][898]LogSavePackage: Save=2.028033ms
+[2015.10.22-23.48.57:429][898]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/NewPhysicalMaterial37CE8BF6486BE7C1C5D74F9DDE233308.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/NewPhysicalMaterial.uasset'
+[2015.10.22-23.48.57:430][898]LogSavePackage: Total save time: 3.811330ms
+[2015.10.22-23.48.57:430][898]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/NewPhysicalMaterial.uasset
+[2015.10.22-23.49.05:459][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerMat" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/TriggerMat.uasset" SILENT=true
+[2015.10.22-23.49.05:464][474]LogSavePackage: Save=3.931394ms
+[2015.10.22-23.49.05:464][474]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/TriggerMat67555CE64427E9CE70E39A9916C98C45.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/TriggerMat.uasset'
+[2015.10.22-23.49.05:466][474]LogSavePackage: Total save time: 6.009858ms
+[2015.10.22-23.49.05:466][474]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/TriggerMat.uasset
+[2015.10.22-23.49.05:503][474]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-23.49.48:274][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:274][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:274][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:274][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:275][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:275][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:275][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:275][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:275][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:275][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:275][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:275][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:276][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:276][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:276][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:276][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:276][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:276][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_0.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:276][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:276][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:277][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:277][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:277][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:277][652]PIE:Warning: Warning Invalid Simulate Options: Body (Ball_Blueprint_C_1.Sphere Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2015.10.22-23.49.48:277][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-23.51.37:695][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/MainLVL_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.10.22-23.51.37:956][ 39]LogSavePackage: Save=251.385223ms
+[2015.10.22-23.51.37:956][ 39]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MainLVL_Auto1D616F1CC447C3357D9647081CE4772AB.tmp' to '../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/MainLVL_Auto1.umap'
+[2015.10.22-23.51.37:956][ 39]LogSavePackage: Total save time: 258.880392ms
+[2015.10.22-23.51.37:956][ 39]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/MainLVL_Auto1.umap
+[2015.10.22-23.51.37:958][ 39]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLVL' took 0.286
+[2015.10.22-23.51.37:958][ 39]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.286
+[2015.10.22-23.51.37:962][ 39]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Ball_Blueprint] ([1] browsable assets)...
+[2015.10.22-23.51.37:978][ 39]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Ball_Blueprint.Ball_Blueprint]
+[2015.10.22-23.51.37:978][ 39]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Ball_Blueprint]
+[2015.10.22-23.51.37:978][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Ball_Blueprint" FILE="../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/Blueprints/Ball_Blueprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.10.22-23.51.38:002][ 39]LogSavePackage: Save=17.602825ms
+[2015.10.22-23.51.38:002][ 39]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/Ball_Blueprint_Auto11DBCAAF349083208DB2427A70AACE54D.tmp' to '../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/Blueprints/Ball_Blueprint_Auto1.uasset'
+[2015.10.22-23.51.38:003][ 39]LogSavePackage: Total save time: 23.902986ms
+[2015.10.22-23.51.38:003][ 39]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/Blueprints/Ball_Blueprint_Auto1.uasset
+[2015.10.22-23.51.38:003][ 39]LogFileHelpers: Auto-saving content packages took 0.044
+[2015.10.22-23.56.05:906][104]BlueprintLog: New page: Compile Ball_Blueprint
+[2015.10.22-23.56.05:961][104]BlueprintEditorCompileResults: Info [2075,81] Compile of Ball_Blueprint successful! [in 54 ms]
+[2015.10.22-23.56.12:573][886]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.56.12:573][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.56.12:574][886]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:56:12)
+[2015.10.22-23.56.12:574][886]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.56.12:585][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012270s)
+[2015.10.22-23.56.12:586][886]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.56.12:586][886]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2015.10.22-23.56.12:587][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.013489s)
+[2015.10.22-23.56.12:614][886]LogInit: XAudio2 using 'Casque (AKG K845BT Stéréo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.10.22-23.56.12:618][886]LogInit: FAudioDevice initialized.
+[2015.10.22-23.56.12:651][886]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-23.56.12:660][886]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.23-01.56.12
+[2015.10.22-23.56.12:660][886]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.56.12:660][886]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-23.56.12:661][886]LogWorld: Bringing up level for play took: 0.008740
+[2015.10.22-23.56.12:662][886]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0,419
+[2015.10.22-23.56.12:662][886]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.56.20:325][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.56.20:373][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.56.20:392][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005DF703EA20
+[2015.10.22-23.58.04:568][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-23.58.05:292][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainLVL.MainLVL:PersistentLevel' has LevelScriptBlueprint '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL' with GeneratedClass '/Game/MainLVL.MainLVL_C' with ClassGeneratedBy '/Game/MainLVL.MainLVL:PersistentLevel.MainLVL'
+[2015.10.22-23.58.05:292][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-23.58.05:292][430]PIE: New page: PIE session: MainLVL (23 Oct 2015 03:58:05)
+[2015.10.22-23.58.05:292][430]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-23.58.05:303][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010499s)
+[2015.10.22-23.58.05:303][430]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-23.58.05:303][430]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2015.10.22-2
