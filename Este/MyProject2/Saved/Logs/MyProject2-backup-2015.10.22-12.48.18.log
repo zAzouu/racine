@@ -1,0 +1,1413 @@
+﻿[2015.10.22-09.38.46:140][  0]Log file open, 10/22/15 11:38:46
+[2015.10.22-09.38.46:140][  0]LogInit:Display: Running engine for game: MyProject2
+[2015.10.22-09.38.46:140][  0]LogInit:Display: RandInit(-192454148) SRandInit(-192454148).
+[2015.10.22-09.38.46:140][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.10.22-09.38.46:140][  0]LogStats: Stats thread started at 0.069949
+[2015.10.22-09.38.46:140][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.22-09.38.46:140][  0]LogInit: API Version: 2672455
+[2015.10.22-09.38.46:140][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.10.22-09.38.46:140][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.22-09.38.46:140][  0]LogInit: Build Configuration: Development
+[2015.10.22-09.38.46:140][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.10.22-09.38.46:140][  0]LogInit: Command line: 
+[2015.10.22-09.38.46:140][  0]LogInit: Base directory: D:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.10.22-09.38.46:140][  0]LogInit: Rocket: 1
+[2015.10.22-09.38.46:145][  0]LogInit: Using libcurl 7.41.0
+[2015.10.22-09.38.46:145][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.22-09.38.46:146][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.22-09.38.46:146][  0]LogInit:  - other features:
+[2015.10.22-09.38.46:146][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.22-09.38.46:146][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.22-09.38.46:146][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.22-09.38.46:146][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.22-09.38.46:146][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.22-09.38.46:146][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.22-09.38.46:146][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.22-09.38.46:146][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.22-09.38.46:146][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.22-09.38.46:146][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.22-09.38.46:151][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.22-09.38.46:156][  0]LogInit: Object subsystem initialized
+[2015.10.22-09.38.46:161][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.22-09.38.46:161][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.22-09.38.46:168][  0]LogInit: Computer: REIIZDESKTOP
+[2015.10.22-09.38.46:168][  0]LogInit: User: liliu
+[2015.10.22-09.38.46:168][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.10.22-09.38.46:168][  0]LogInit: High frequency timer resolution =3.906250 MHz
+[2015.10.22-09.38.46:168][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.22-09.38.46:168][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.22-09.38.46:168][  0]LogMemory: Process Physical Memory: 54.05 MB used, 54.05 MB peak
+[2015.10.22-09.38.46:168][  0]LogMemory: Process Virtual Memory: 54.30 MB used, 54.30 MB peak
+[2015.10.22-09.38.46:168][  0]LogMemory: Physical Memory: 3506.99 MB used, 8052.93 MB total
+[2015.10.22-09.38.46:168][  0]LogMemory: Virtual Memory: 366.55 MB used, 134217728.00 MB total
+[2015.10.22-09.38.46:193][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2015.10.22-09.38.46:788][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7900 Series (Feature Level 11_0)
+[2015.10.22-09.38.46:788][  0]LogD3D11RHI: Adapter has 3050MB of dedicated video memory, 0MB of dedicated system memory, and 4026MB of shared system memory, 2 output[s]
+[2015.10.22-09.38.46:792][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.10.22-09.38.46:792][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4026MB of shared system memory, 0 output[s]
+[2015.10.22-09.38.46:793][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.22-09.38.46:793][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4026MB of shared system memory, 0 output[s]
+[2015.10.22-09.38.46:793][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.22-09.38.46:796][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.22-09.38.46:796][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.22-09.38.46:801][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.10.22-09.38.46:811][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../MyGAMES/MyProject2/Intermediate/Shaders/WorkingDirectory/14968/).
+[2015.10.22-09.38.46:811][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../MyGAMES/MyProject2/Intermediate/Shaders/tmp/6775AAB1409921BA37B7A0B766BCD1CB/'.
+[2015.10.22-09.38.46:811][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.22-09.38.47:597][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.10.22-09.38.47:601][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.22-09.38.47:605][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.22-09.38.47:609][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.22-09.38.47:613][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.22-09.38.47:615][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.22-09.38.47:617][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.22-09.38.47:620][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.22-09.38.47:623][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.22-09.38.47:625][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.22-09.38.47:627][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.22-09.38.47:630][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.22-09.38.47:631][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.10.22-09.38.47:646][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.22-09.38.47:648][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.22-09.38.47:651][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.22-09.38.47:654][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.22-09.38.47:654][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.22-09.38.47:717][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.22-09.38.47:752][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/liliu/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.22-09.38.47:752][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/liliu/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.10.22-09.38.47:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../MyGAMES/MyProject2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.22-09.38.47:753][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.22-09.38.47:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../MyGAMES/MyProject2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.22-09.38.47:753][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.22-09.38.47:862][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.22-09.38.47:873][  0]LogDerivedDataCache: Using Local data cache path C:/Users/liliu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.22-09.38.47:997][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.22-09.38.48:000][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.22-09.38.48:087][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.22-09.38.48:087][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.22-09.38.48:283][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.22-09.38.48:902][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.22-09.38.48:989][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.10.22-09.38.49:104][  0]SourceControl: Info Source control is disabled
+[2015.10.22-09.38.49:104][  0]SourceControl: Info Source control is disabled
+[2015.10.22-09.38.49:111][  0]SourceControl: Info Source control is disabled
+[2015.10.22-09.38.49:118][  0]SourceControl: Info Source control is disabled
+[2015.10.22-09.38.49:250][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.22-09.38.49:305][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.10.22-09.38.49:305][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.10.22-09.38.49:350][  0]LogEngine: Initializing Engine...
+[2015.10.22-09.38.49:351][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.10.22-09.38.49:352][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.10.22-09.38.49:444][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.22-09.38.49:451][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-09.38.49:461][  0]LogInit: FAudioDevice initialized.
+[2015.10.22-09.38.49:479][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/liliu/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.10.22-09.38.49:483][  0]LogInit: Texture streaming: Enabled
+[2015.10.22-09.38.49:488][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.22-09.38.49:488][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.10.22-09.38.49:488][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 71602e434846f1ec325ce9888374f8e1|8083a3ab479f42fd888931546077b44c|d0992da6-e7c3-4808-adbd-9ac2ef65295b
+[2015.10.22-09.38.49:488][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.22-09.38.49:496][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.22-09.38.49:511][  0]LogInit: Transaction tracking system initialized
+[2015.10.22-09.38.49:533][  0]BlueprintLog: New page: Editor Load
+[2015.10.22-09.38.50:075][  0]LocalizationService: Info Localization service is disabled
+[2015.10.22-09.38.50:224][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2015.10.22-09.38.50:224][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2015.10.22-09.38.50:224][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2015.10.22-09.38.50:236][  0]LogConsoleResponse:Display: 
+[2015.10.22-09.38.50:323][  0]LogFileCache: Scanning file cache for directory 'D:/MyGAMES/MyProject2/Content/' took 0.01s
+[2015.10.22-09.38.50:323][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.22-09.38.50:369][  0]SourceControl: Info Source control is disabled
+[2015.10.22-09.38.50:369][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.22-09.38.50:370][  0]LightingResults: New page: Lighting Build
+[2015.10.22-09.38.50:372][  0]MapCheck: New page: Map Check
+[2015.10.22-09.38.50:372][  0]LightingResults: New page: Lighting Build
+[2015.10.22-09.38.50:381][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEA4BC1DA0
+[2015.10.22-09.38.50:595][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.10.22-09.38.50:599][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.22-09.38.50:626][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.22-09.38.50:659][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.303ms to complete.
+[2015.10.22-09.38.50:659][  0]LogFileHelpers: Loading map 'Template_Default' took 0.290
+[2015.10.22-09.38.50:761][  0]LogCollectionManager: Loaded 0 collections in 0.002007 seconds
+[2015.10.22-09.38.50:804][  0]LogFileCache: Scanning file cache for directory 'D:/MyGAMES/MyProject2/Saved/Collections/' took 0.01s
+[2015.10.22-09.38.50:804][  0]LogFileCache: Scanning file cache for directory 'D:/MyGAMES/MyProject2/Content/Developers/liliu/Collections/' took 0.01s
+[2015.10.22-09.38.50:804][  0]LogFileCache: Scanning file cache for directory 'D:/MyGAMES/MyProject2/Content/Collections/' took 0.01s
+[2015.10.22-09.38.50:804][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 1868 classes and 336 folders.
+[2015.10.22-09.38.50:812][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.10.22-09.38.50:817][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.10.22-09.38.50:849][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.10.22-09.38.50:852][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.10.22-09.38.50:895][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.22-09.38.50:898][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.22-09.38.50:923][  0]LogLoad: Full Startup: 5.16 seconds (BP compile: 0.04 seconds)
+[2015.10.22-09.38.50:967][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.10.22-09.38.51:079][  0]LogRenderer: Reallocating scene render targets to support 1244x608 (Frame:2).
+[2015.10.22-09.38.51:419][  3]LogAssetRegistry: Asset discovery search completed in 2.4411 seconds
+[2015.10.22-09.38.51:419][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.10.22-09.38.51:419][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2015.10.22-09.38.56:604][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-09.39.57:808][804]LogMetaData: Removing '/Game/MyGamemode.MyGamemode:UserConstructionScript.K2Node_FunctionEntry_1' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2015.10.22-09.39.57:809][804]LogMetaData: Removing '/Game/MyGamemode.SKEL_MyGamemode_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2015.10.22-09.39.57:809][804]LogMetaData: Removing '/Game/MyGamemode.MyGamemode_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2015.10.22-09.39.57:809][804]LogMetaData: Removing '/Game/MyGamemode.MyGamemode:EventGraph.K2Node_Event_3' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2015.10.22-09.39.57:809][804]LogMetaData: Removing '/Game/MyGamemode.MyGamemode:EventGraph.K2Node_Event_4' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2015.10.22-09.39.57:874][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGamemode" FILE="../../../../../../MyGAMES/MyProject2/Content/MyGamemode.uasset" SILENT=true
+[2015.10.22-09.39.57:894][804]LogSavePackage: Save=17.423361ms
+[2015.10.22-09.39.57:894][804]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyGamemodeC2DE3DB34E92AFFCFAF42D83DCF61C48.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyGamemode.uasset'
+[2015.10.22-09.39.57:896][804]LogSavePackage: Total save time: 20.148735ms
+[2015.10.22-09.39.57:896][804]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyGamemode.uasset
+[2015.10.22-09.39.59:328][965]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.22-09.39.59:690][965]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.10.22-09.39.59:983][965]LogActor:Warning: GameNetworkManager /Engine/Transient.World_2:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-09.40.00:040][965]LogRenderer: Reallocating scene render targets to support 1280x900 (Frame:5206).
+[2015.10.22-09.40.07:070][659]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.22-09.40.08:351][807]Cmd: UpdateLandscapeSetup
+[2015.10.22-09.40.16:760][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BE919A51C0
+[2015.10.22-09.40.21:139][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGamemode" FILE="../../../../../../MyGAMES/MyProject2/Content/MyGamemode.uasset" SILENT=true
+[2015.10.22-09.40.21:153][807]LogSavePackage: Save=8.519168ms
+[2015.10.22-09.40.21:153][807]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyGamemode5E632E7D4DFAD3C10179899786FE7B5A.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyGamemode.uasset'
+[2015.10.22-09.40.21:154][807]LogSavePackage: Total save time: 12.252927ms
+[2015.10.22-09.40.21:154][807]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyGamemode.uasset
+[2015.10.22-09.40.21:160][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewBlueprint" FILE="../../../../../../MyGAMES/MyProject2/Content/NewBlueprint.uasset" SILENT=true
+[2015.10.22-09.40.21:163][807]LogSavePackage: Save=1.937408ms
+[2015.10.22-09.40.21:163][807]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/NewBlueprintA1261F774854AFCA637073845D8E69EF.tmp' to '../../../../../../MyGAMES/MyProject2/Content/NewBlueprint.uasset'
+[2015.10.22-09.40.21:164][807]LogSavePackage: Total save time: 2.934016ms
+[2015.10.22-09.40.21:164][807]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/NewBlueprint.uasset
+[2015.10.22-09.40.21:170][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../../MyGAMES/MyProject2/Content/Player.uasset" SILENT=true
+[2015.10.22-09.40.21:186][807]LogSavePackage: Save=12.908800ms
+[2015.10.22-09.40.21:186][807]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/Player224D4DDC456E66FE6CDB9490D462842B.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Player.uasset'
+[2015.10.22-09.40.21:187][807]LogSavePackage: Total save time: 14.030080ms
+[2015.10.22-09.40.21:187][807]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Player.uasset
+[2015.10.22-09.40.30:985][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../MyGAMES/MyProject2/Content/MainLVL.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.22-09.40.31:025][807]LogSavePackage: Save=20.757504ms
+[2015.10.22-09.40.31:025][807]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MainLVL1D85C2974253D39F7E66F9BB8564820D.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MainLVL.umap'
+[2015.10.22-09.40.31:026][807]LogSavePackage: Total save time: 22.194177ms
+[2015.10.22-09.40.31:026][807]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MainLVL.umap
+[2015.10.22-09.40.31:043][807]LogFileHelpers: Saving map 'MainLVL' took 0.186
+[2015.10.22-09.42.06:161][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-09.42.13:502][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../../MyGAMES/MyProject2/Content/Player.uasset" SILENT=true
+[2015.10.22-09.42.13:515][496]LogSavePackage: Save=9.730816ms
+[2015.10.22-09.42.13:515][496]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/Player8C5D7C3649FB32CF3B4884BCCB5D0867.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Player.uasset'
+[2015.10.22-09.42.13:516][496]LogSavePackage: Total save time: 13.154559ms
+[2015.10.22-09.42.13:516][496]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Player.uasset
+[2015.10.22-09.45.45:858][697]BlueprintLog: New page: Compile Player
+[2015.10.22-09.45.45:864][697]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_2.CollisionCylinder and CapsuleComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-09.45.45:864][697]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_2.Arrow and ArrowComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-09.45.45:864][697]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_2.CharMoveComp and CharacterMovementComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-09.45.45:864][697]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_2.CharacterMesh0 and SkeletalMeshComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-09.45.45:917][697]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BED30FBC40
+[2015.10.22-09.45.45:924][697]BlueprintEditorCompileResults: Info [0420.16] Compile of Player successful! [in 66 ms]
+[2015.10.22-09.45.46:481][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../../MyGAMES/MyProject2/Content/Player.uasset" SILENT=true
+[2015.10.22-09.45.46:498][753]LogSavePackage: Save=15.398656ms
+[2015.10.22-09.45.46:498][753]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/Player433589C148B9EB4B6F9D9BB18CFDB95F.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Player.uasset'
+[2015.10.22-09.45.46:499][753]LogSavePackage: Total save time: 17.190911ms
+[2015.10.22-09.45.46:499][753]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Player.uasset
+[2015.10.22-09.45.51:204][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-09.45.51:204][288]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 1:45:51 PM)
+[2015.10.22-09.45.51:204][288]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-09.45.51:206][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001992s)
+[2015.10.22-09.45.51:207][288]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-09.45.51:207][288]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2015.10.22-09.45.51:207][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002819s)
+[2015.10.22-09.45.51:233][288]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-09.45.51:241][288]LogInit: FAudioDevice initialized.
+[2015.10.22-09.45.51:287][288]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-09.45.51:290][288]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-11.45.51
+[2015.10.22-09.45.51:290][288]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-09.45.51:290][288]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-09.45.51:313][288]LogWorld: Bringing up level for play took: 0.024842
+[2015.10.22-09.45.51:315][288]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 1.073
+[2015.10.22-09.46.01:989][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEDC39C900
+[2015.10.22-09.46.11:355][744]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.22-09.46.21:790][984]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_C_0.CollisionCylinder and CapsuleComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-09.46.21:790][984]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_C_0.Arrow and ArrowComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-09.46.21:790][984]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_C_0.CharMoveComp and CharacterMovementComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-09.46.21:790][984]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/MainLVL.MainLVL:PersistentLevel.Player_C_0.CharacterMesh0 and SkeletalMeshComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-09.46.21:838][984]LogMetaData: Removing '/Game/MyPlayer.MyPlayer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Player.PackageMetaData'
+[2015.10.22-09.46.21:838][984]LogMetaData: Removing '/Game/MyPlayer.SKEL_MyPlayer_C' ref from Metadata '/Game/Player.PackageMetaData'
+[2015.10.22-09.46.21:838][984]LogMetaData: Removing '/Game/MyPlayer.MyPlayer_C' ref from Metadata '/Game/Player.PackageMetaData'
+[2015.10.22-09.46.21:838][984]LogMetaData: Removing '/Game/MyPlayer.MyPlayer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Player.PackageMetaData'
+[2015.10.22-09.46.21:838][984]LogMetaData: Removing '/Game/MyPlayer.MyPlayer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Player.PackageMetaData'
+[2015.10.22-09.46.21:838][984]LogMetaData: Removing '/Game/MyPlayer.MyPlayer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Player.PackageMetaData'
+[2015.10.22-09.46.21:858][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset" SILENT=true
+[2015.10.22-09.46.21:874][984]LogSavePackage: Save=15.543296ms
+[2015.10.22-09.46.21:874][984]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer8F71BCFA4DBE0D7B095EA88AE18DBA7E.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset'
+[2015.10.22-09.46.21:875][984]LogSavePackage: Total save time: 16.655359ms
+[2015.10.22-09.46.21:875][984]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset
+[2015.10.22-09.46.21:881][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../../MyGAMES/MyProject2/Content/Player.uasset" SILENT=true
+[2015.10.22-09.46.21:888][984]LogSavePackage: Save=6.187776ms
+[2015.10.22-09.46.21:888][984]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/Player9CA996704FBC73ECFE1D148C5EDB8157.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Player.uasset'
+[2015.10.22-09.46.21:889][984]LogSavePackage: Total save time: 7.705346ms
+[2015.10.22-09.46.21:889][984]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Player.uasset
+[2015.10.22-09.46.23:468][170]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.22-09.46.25:387][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-09.48.14:263][242]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-09.48.14:318][242]BlueprintEditorCompileResults: Info [0568.56] Compile of MyPlayer successful! [in 55 ms]
+[2015.10.22-09.48.14:871][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset" SILENT=true
+[2015.10.22-09.48.14:890][299]LogSavePackage: Save=14.914304ms
+[2015.10.22-09.48.14:890][299]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer2D6B9EAC41016D1DD3358B8CDC4923FC.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset'
+[2015.10.22-09.48.14:891][299]LogSavePackage: Total save time: 19.228932ms
+[2015.10.22-09.48.14:891][299]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset
+[2015.10.22-09.48.17:705][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-09.48.17:705][620]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 1:48:17 PM)
+[2015.10.22-09.48.17:705][620]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-09.48.17:707][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001619s)
+[2015.10.22-09.48.17:707][620]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-09.48.17:707][620]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2015.10.22-09.48.17:707][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002602s)
+[2015.10.22-09.48.17:736][620]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-09.48.17:744][620]LogInit: FAudioDevice initialized.
+[2015.10.22-09.48.17:773][620]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-09.48.17:775][620]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-11.48.17
+[2015.10.22-09.48.17:775][620]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-09.48.17:775][620]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-09.48.17:776][620]LogWorld: Bringing up level for play took: 0.001524
+[2015.10.22-09.48.17:777][620]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.466
+[2015.10.22-09.48.30:300][113]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEE0907240
+[2015.10.22-09.50.17:521][230]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-09.50.17:576][230]BlueprintEditorCompileResults: Info [0691.82] Compile of MyPlayer successful! [in 55 ms]
+[2015.10.22-09.50.18:255][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset" SILENT=true
+[2015.10.22-09.50.18:274][302]LogSavePackage: Save=18.372353ms
+[2015.10.22-09.50.18:274][302]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer1D47222D420DC7431C325388D1200854.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset'
+[2015.10.22-09.50.18:275][302]LogSavePackage: Total save time: 19.756801ms
+[2015.10.22-09.50.18:275][302]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset
+[2015.10.22-09.50.22:180][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-09.50.22:180][740]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 1:50:22 PM)
+[2015.10.22-09.50.22:180][740]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-09.50.22:182][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001990s)
+[2015.10.22-09.50.22:182][740]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-09.50.22:182][740]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2015.10.22-09.50.22:182][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002706s)
+[2015.10.22-09.50.22:208][740]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-09.50.22:216][740]LogInit: FAudioDevice initialized.
+[2015.10.22-09.50.22:247][740]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-09.50.22:250][740]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-11.50.22
+[2015.10.22-09.50.22:250][740]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-09.50.22:250][740]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-09.50.22:250][740]LogWorld: Bringing up level for play took: 0.002438
+[2015.10.22-09.50.22:252][740]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.009
+[2015.10.22-09.51.06:493][666]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BED444A700
+[2015.10.22-09.51.34:614][810]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-09.51.34:671][810]BlueprintEditorCompileResults: Info [0768.91] Compile of MyPlayer successful! [in 57 ms]
+[2015.10.22-09.51.35:124][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset" SILENT=true
+[2015.10.22-09.51.35:144][857]LogSavePackage: Save=19.002880ms
+[2015.10.22-09.51.35:144][857]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerEE63B5904857425C2D306CA09D4FBE57.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset'
+[2015.10.22-09.51.35:145][857]LogSavePackage: Total save time: 20.709887ms
+[2015.10.22-09.51.35:145][857]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset
+[2015.10.22-09.51.36:954][ 63]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.22-09.51.37:894][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-09.51.37:894][173]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 1:51:37 PM)
+[2015.10.22-09.51.37:894][173]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-09.51.37:895][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001508s)
+[2015.10.22-09.51.37:896][173]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-09.51.37:896][173]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2015.10.22-09.51.37:896][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002304s)
+[2015.10.22-09.51.37:924][173]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-09.51.37:932][173]LogInit: FAudioDevice initialized.
+[2015.10.22-09.51.37:968][173]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-09.51.37:970][173]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-11.51.37
+[2015.10.22-09.51.37:970][173]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-09.51.37:970][173]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-09.51.37:970][173]LogWorld: Bringing up level for play took: 0.001852
+[2015.10.22-09.51.37:972][173]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.271
+[2015.10.22-09.51.48:437][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEF32F5120
+[2015.10.22-09.52.25:374][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-09.52.33:295][736]LogEditorTransaction: Undo Move Node
+[2015.10.22-09.52.33:742][764]LogEditorTransaction: Undo Resize Node
+[2015.10.22-09.52.34:653][854]LogEditorTransaction: Undo Paste clipboard contents
+[2015.10.22-09.52.48:771][739]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_155.EdGraphPin_3160''
+[2015.10.22-09.52.48:780][739]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.10.22-09.52.48:780][739]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.10.22-09.52.48:780][739]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C')'
+[2015.10.22-09.52.48:780][739]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_153.EdGraphPin_3175''
+[2015.10.22-09.52.48:781][739]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.10.22-09.52.48:781][739]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C')'
+[2015.10.22-09.52.48:781][739]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_43.EdGraphPin_2562''
+[2015.10.22-09.52.48:781][739]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4678.EdGraphPin_3191''
+[2015.10.22-09.52.48:781][739]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3716.EdGraphPin_3214''
+[2015.10.22-09.52.48:781][739]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_55.EdGraphPin_2540''
+[2015.10.22-09.52.48:781][739]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4223.EdGraphPin_3203''
+[2015.10.22-09.52.48:781][739]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4184.EdGraphPin_3223''
+[2015.10.22-09.52.48:782][739]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_43.EdGraphPin_2561''
+[2015.10.22-09.52.48:782][739]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_55.EdGraphPin_2539''
+[2015.10.22-09.52.48:782][739]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.10.22-09.52.48:782][739]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C',MemberName="InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38"))'
+[2015.10.22-09.52.48:783][739]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.10.22-09.52.48:783][739]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C',MemberName="InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53"))'
+[2015.10.22-09.52.48:783][739]LogBlueprint:Warning: [MyPlayer] CreatePinForVariable: 'BaseTurnRate' variable not found. Base class was probably changed.
+[2015.10.22-09.52.48:784][739]LogBlueprint:Warning: [MyPlayer] CreatePinForVariable: 'BaseLookUpRate' variable not found. Base class was probably changed.
+[2015.10.22-09.53.25:729][298]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-09.53.25:745][298]LogBlueprint:Warning: [compiler MyPlayer] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.10.22-09.53.25:745][298]LogBlueprint:Warning: [compiler MyPlayer] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.10.22-09.53.25:745][298]LogBlueprint:Warning: [compiler MyPlayer] Warning Could not find a variable named "BaseLookUpRate" in 'MyPlayer_C'.
+Make sure 'MyPlayer_C' has been compiled for  Get BaseLookUpRate 
+[2015.10.22-09.53.25:745][298]LogBlueprint:Warning: [compiler MyPlayer] Warning Could not find a variable named "BaseTurnRate" in 'MyPlayer_C'.
+Make sure 'MyPlayer_C' has been compiled for  Get BaseTurnRate 
+[2015.10.22-09.53.25:765][298]LogBlueprint:Error: [compiler MyPlayer] Error The property associated with  Base Turn Rate  could not be found
+[2015.10.22-09.53.25:765][298]LogBlueprint:Error: [compiler MyPlayer] Error The property associated with  Base Look Up Rate  could not be found
+[2015.10.22-09.53.25:849][298]LogBlueprint:Warning: [compiler MyPlayer] Warning [0880.09] Compile of MyPlayer failed. 2 Fatal Issue(s) 4 Warning(s) [in 119 ms]
+[2015.10.22-09.53.25:849][298]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate 
+[2015.10.22-09.53.25:849][298]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.10.22-09.53.25:849][298]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "BaseLookUpRate" in 'MyPlayer_C'.
+Make sure 'MyPlayer_C' has been compiled for  Get BaseLookUpRate 
+[2015.10.22-09.53.25:849][298]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "BaseTurnRate" in 'MyPlayer_C'.
+Make sure 'MyPlayer_C' has been compiled for  Get BaseTurnRate 
+[2015.10.22-09.53.25:849][298]BlueprintEditorCompileResults:Error: Error The property associated with  Base Turn Rate  could not be found
+[2015.10.22-09.53.25:849][298]BlueprintEditorCompileResults:Error: Error The property associated with  Base Look Up Rate  could not be found
+[2015.10.22-09.53.25:849][298]BlueprintEditorCompileResults:Warning: Warning [0880.09] Compile of MyPlayer failed. 2 Fatal Issue(s) 4 Warning(s) [in 119 ms]
+[2015.10.22-09.53.26:245][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset" SILENT=true
+[2015.10.22-09.53.26:277][334]LogSavePackage: Save=26.874624ms
+[2015.10.22-09.53.26:277][334]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer28A4E8004FD527BB63F533B98464B613.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset'
+[2015.10.22-09.53.26:278][334]LogSavePackage: Total save time: 31.503871ms
+[2015.10.22-09.53.26:278][334]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset
+[2015.10.22-09.55.42:948][426]Cmd: TRANSACTION UNDO
+[2015.10.22-09.55.42:948][426]LogEditorTransaction: Undo Remove Axis Mapping Group
+[2015.10.22-09.55.43:455][466]Cmd: TRANSACTION UNDO
+[2015.10.22-09.55.43:455][466]LogEditorTransaction: Undo Remove Axis Mapping Group
+[2015.10.22-09.55.45:754][739]Cmd: TRANSACTION UNDO
+[2015.10.22-09.55.45:754][739]LogEditorTransaction: Undo Rename Axis Mapping
+[2015.10.22-10.00.10:220][549]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.00.10:281][549]BlueprintEditorCompileResults: Info [1284.52] Compile of MyPlayer successful! [in 60 ms]
+[2015.10.22-10.00.10:794][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.00.10:821][602]LogSavePackage: Save=21.614080ms
+[2015.10.22-10.00.10:821][602]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerAC168766437E0ADAFC27F3B99394A035.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset'
+[2015.10.22-10.00.10:822][602]LogSavePackage: Total save time: 26.753794ms
+[2015.10.22-10.00.10:822][602]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset
+[2015.10.22-10.00.13:249][874]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.22-10.00.13:935][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.00.13:935][953]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:00:13 PM)
+[2015.10.22-10.00.13:935][953]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.00.13:937][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001795s)
+[2015.10.22-10.00.13:937][953]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.00.13:938][953]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2015.10.22-10.00.13:938][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002695s)
+[2015.10.22-10.00.13:965][953]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.00.13:974][953]LogInit: FAudioDevice initialized.
+[2015.10.22-10.00.14:003][953]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.00.14:005][953]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.00.14
+[2015.10.22-10.00.14:005][953]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.00.14:005][953]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.00.14:006][953]LogWorld: Bringing up level for play took: 0.001825
+[2015.10.22-10.00.14:008][953]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.234
+[2015.10.22-10.00.41:812][276]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEF4A8EF20
+[2015.10.22-10.00.43:737][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.00.43:738][505]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:00:43 PM)
+[2015.10.22-10.00.43:738][505]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.00.43:740][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002092s)
+[2015.10.22-10.00.43:741][505]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.00.43:741][505]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2015.10.22-10.00.43:741][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002913s)
+[2015.10.22-10.00.43:766][505]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.00.43:774][505]LogInit: FAudioDevice initialized.
+[2015.10.22-10.00.43:807][505]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.00.43:809][505]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.00.43
+[2015.10.22-10.00.43:809][505]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.00.43:809][505]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.00.43:809][505]LogWorld: Bringing up level for play took: 0.001848
+[2015.10.22-10.00.43:810][505]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.432
+[2015.10.22-10.00.54:934][832]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BED36A36A0
+[2015.10.22-10.01.23:722][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-10.01.34:939][ 49]LogActor:Warning: GameNetworkManager /Engine/Transient.World_8:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.03.10:405][950]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.03.10:412][950]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_0.CollisionCylinder and CapsuleComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_1.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-10.03.10:412][950]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_0.Arrow and ArrowComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_1.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-10.03.10:412][950]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_0.CharMoveComp and CharacterMovementComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_1.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-10.03.10:412][950]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_0.CharacterMesh0 and SkeletalMeshComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_1.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-10.03.10:476][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BED35A1580
+[2015.10.22-10.03.10:485][950]BlueprintEditorCompileResults: Info [1464.72] Compile of MyPlayer successful! [in 79 ms]
+[2015.10.22-10.03.10:982][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.03.11:007][983]LogSavePackage: Save=23.543039ms
+[2015.10.22-10.03.11:007][983]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer7682F3524665F669AC8B7188A8005A19.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset'
+[2015.10.22-10.03.11:008][983]LogSavePackage: Total save time: 25.382657ms
+[2015.10.22-10.03.11:008][983]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset
+[2015.10.22-10.03.25:754][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.03.25:755][777]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:03:25 PM)
+[2015.10.22-10.03.25:755][777]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.03.25:756][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001288s)
+[2015.10.22-10.03.25:756][777]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.03.25:756][777]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2015.10.22-10.03.25:757][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002029s)
+[2015.10.22-10.03.25:784][777]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.03.25:792][777]LogInit: FAudioDevice initialized.
+[2015.10.22-10.03.25:822][777]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.03.25:824][777]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.03.25
+[2015.10.22-10.03.25:824][777]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.03.25:824][777]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.03.25:825][777]LogWorld: Bringing up level for play took: 0.001631
+[2015.10.22-10.03.25:826][777]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.416
+[2015.10.22-10.03.32:272][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEF7959C60
+[2015.10.22-10.03.55:726][129]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.10.22-10.05.21:563][547]LogEditorViewport: Clicking on Actor (LMB): MyPlayer_C (Player)
+[2015.10.22-10.05.27:833][863]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.10.22-10.05.27:835][863]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.05.27:837][863]LogPlayLevel: [PlayLevel] Compiling MyPlayer before play...
+[2015.10.22-10.05.27:901][863]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_1.CollisionCylinder and CapsuleComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_2.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-10.05.27:901][863]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_1.Arrow and ArrowComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_2.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-10.05.27:901][863]LogUObjectGlobals:Warning: Guid is in use by CharacterMovementComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_1.CharMoveComp and CharacterMovementComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_2.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-10.05.27:901][863]LogUObjectGlobals:Warning: Guid is in use by SkeletalMeshComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_1.CharacterMesh0 and SkeletalMeshComponent /Game/MainLVL.MainLVL:PersistentLevel.MyPlayer_C_2.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.22-10.05.28:078][863]LogPlayLevel: PlayLevel: Blueprint regeneration took 245 ms (1 blueprints)
+[2015.10.22-10.05.28:100][863]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:05:28 PM)
+[2015.10.22-10.05.28:100][863]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.05.28:102][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001759s)
+[2015.10.22-10.05.28:102][863]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.05.28:103][863]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2015.10.22-10.05.28:103][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002646s)
+[2015.10.22-10.05.28:155][863]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.05.28:164][863]LogInit: FAudioDevice initialized.
+[2015.10.22-10.05.28:193][863]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.05.28:196][863]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.05.28
+[2015.10.22-10.05.28:196][863]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.05.28:196][863]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.05.28:197][863]LogWorld: Bringing up level for play took: 0.002692
+[2015.10.22-10.05.28:199][863]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.044
+[2015.10.22-10.05.37:833][995]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.05.37:869][995]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF10BB6AC0
+[2015.10.22-10.05.39:551][ 81]LogEditorViewport: Clicking on Actor (LMB): MyPlayer_C (Player)
+[2015.10.22-10.05.41:980][207]LogEditorActor: Deleted Actor: MyPlayer_C
+[2015.10.22-10.05.42:001][207]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2015.10.22-10.05.43:855][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.05.43:855][336]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:05:43 PM)
+[2015.10.22-10.05.43:855][336]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.05.43:856][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001578s)
+[2015.10.22-10.05.43:857][336]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.05.43:857][336]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2015.10.22-10.05.43:857][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002459s)
+[2015.10.22-10.05.43:887][336]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.05.43:895][336]LogInit: FAudioDevice initialized.
+[2015.10.22-10.05.43:925][336]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.05.43:928][336]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.05.43
+[2015.10.22-10.05.43:928][336]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.05.43:929][336]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.05.43:929][336]LogWorld: Bringing up level for play took: 0.001961
+[2015.10.22-10.05.43:931][336]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.312
+[2015.10.22-10.05.53:559][477]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF06BF4C20
+[2015.10.22-10.06.19:426][195]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.06.20:758][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../MyGAMES/MyProject2/Content/MainLVL.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.22-10.06.20:804][195]LogSavePackage: Save=17.509888ms
+[2015.10.22-10.06.20:804][195]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MainLVL1731AF00412B27860CD161B9237BAB2D.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MainLVL.umap'
+[2015.10.22-10.06.20:805][195]LogSavePackage: Total save time: 21.924350ms
+[2015.10.22-10.06.20:805][195]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MainLVL.umap
+[2015.10.22-10.06.20:821][195]LogFileHelpers: Saving map 'MainLVL' took 0.108
+[2015.10.22-10.06.20:839][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.06.20:875][195]LogSavePackage: Save=31.373823ms
+[2015.10.22-10.06.20:875][195]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer8073516C418A2BB7BC4EDC9F83DD3094.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset'
+[2015.10.22-10.06.20:876][195]LogSavePackage: Total save time: 36.168706ms
+[2015.10.22-10.06.20:876][195]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyPlayer.uasset
+[2015.10.22-10.06.24:308][532]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.06.24:330][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEEFD70D60
+[2015.10.22-10.06.24:331][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEDDE16980
+[2015.10.22-10.06.24:332][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BE91AA9A80
+[2015.10.22-10.06.24:333][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BE91AA99E0
+[2015.10.22-10.06.24:338][532]LogMetaData: Removing '/Game/Blueprints/MyGamemode.MyGamemode_C' ref from Metadata '/Game/MyGamemode.PackageMetaData'
+[2015.10.22-10.06.24:338][532]LogMetaData: Removing '/Game/Blueprints/MyGamemode.SKEL_MyGamemode_C' ref from Metadata '/Game/MyGamemode.PackageMetaData'
+[2015.10.22-10.06.24:338][532]LogMetaData: Removing '/Game/Blueprints/MyGamemode.MyGamemode:UserConstructionScript.K2Node_FunctionEntry_1' ref from Metadata '/Game/MyGamemode.PackageMetaData'
+[2015.10.22-10.06.24:338][532]LogMetaData: Removing '/Game/Blueprints/MyGamemode.MyGamemode:EventGraph.K2Node_Event_3' ref from Metadata '/Game/MyGamemode.PackageMetaData'
+[2015.10.22-10.06.24:338][532]LogMetaData: Removing '/Game/Blueprints/MyGamemode.MyGamemode:EventGraph.K2Node_Event_4' ref from Metadata '/Game/MyGamemode.PackageMetaData'
+[2015.10.22-10.06.24:407][532]LogMetaData: Removing '/Game/Blueprints/MyPlayer.MyPlayer_C' ref from Metadata '/Game/MyPlayer.PackageMetaData'
+[2015.10.22-10.06.24:407][532]LogMetaData: Removing '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C' ref from Metadata '/Game/MyPlayer.PackageMetaData'
+[2015.10.22-10.06.24:407][532]LogMetaData: Removing '/Game/Blueprints/MyPlayer.MyPlayer:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MyPlayer.PackageMetaData'
+[2015.10.22-10.06.24:432][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyGamemode" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyGamemode.uasset" SILENT=true
+[2015.10.22-10.06.24:441][532]LogSavePackage: Save=8.640256ms
+[2015.10.22-10.06.24:441][532]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyGamemodeB284461743FD08FDB83A5AB0B8A13F9C.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyGamemode.uasset'
+[2015.10.22-10.06.24:443][532]LogSavePackage: Total save time: 10.171648ms
+[2015.10.22-10.06.24:443][532]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyGamemode.uasset
+[2015.10.22-10.06.24:448][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyGamemode" FILE="../../../../../../MyGAMES/MyProject2/Content/MyGamemode.uasset" SILENT=true
+[2015.10.22-10.06.24:455][532]LogSavePackage: Save=4.112640ms
+[2015.10.22-10.06.24:455][532]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyGamemode01AF76D9413C85980DDFAA9DB4F4822A.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MyGamemode.uasset'
+[2015.10.22-10.06.24:456][532]LogSavePackage: Total save time: 7.630847ms
+[2015.10.22-10.06.24:456][532]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MyGamemode.uasset
+[2015.10.22-10.06.24:477][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.06.24:511][532]LogSavePackage: Save=32.598270ms
+[2015.10.22-10.06.24:511][532]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer0E561B8B43F5B262B7099CA5DCCC5B8F.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.06.24:512][532]LogSavePackage: Total save time: 33.977598ms
+[2015.10.22-10.06.24:512][532]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.06.24:536][532]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.06.24:665][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player" FILE="../../../../../../MyGAMES/MyProject2/Content/Player.uasset" SILENT=true
+[2015.10.22-10.06.24:674][532]LogSavePackage: Save=6.733824ms
+[2015.10.22-10.06.24:674][532]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/Player4A67EC744910C9DC4D7A2284976664D2.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Player.uasset'
+[2015.10.22-10.06.24:675][532]LogSavePackage: Total save time: 10.015488ms
+[2015.10.22-10.06.24:675][532]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Player.uasset
+[2015.10.22-10.07.01:725][783]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.07.01:837][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.07.01:865][783]BlueprintEditorCompileResults: Info [1696.10] Compile of MyPlayer successful! [in 138 ms]
+[2015.10.22-10.07.02:280][811]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.07.02:312][811]LogSavePackage: Save=30.514433ms
+[2015.10.22-10.07.02:312][811]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer5217717D458FFB0A460482927DC20730.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.07.02:313][811]LogSavePackage: Total save time: 32.223489ms
+[2015.10.22-10.07.02:313][811]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.07.02:855][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-10.07.03:815][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.07.03:815][912]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:07:03 PM)
+[2015.10.22-10.07.03:815][912]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.07.03:816][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001184s)
+[2015.10.22-10.07.03:816][912]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.07.03:817][912]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2015.10.22-10.07.03:817][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.001872s)
+[2015.10.22-10.07.03:817][912]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.07.03:844][912]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.07.03:852][912]LogInit: FAudioDevice initialized.
+[2015.10.22-10.07.03:887][912]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.07.03:889][912]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.07.03
+[2015.10.22-10.07.03:889][912]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.07.03:889][912]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.07.03:889][912]LogWorld: Bringing up level for play took: 0.001260
+[2015.10.22-10.07.03:892][912]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.351
+[2015.10.22-10.07.41:388][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.07.41:424][842]LogSavePackage: Save=33.578239ms
+[2015.10.22-10.07.41:424][842]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerEEEE73CE4F9C079574184DAB59930296.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.07.41:425][842]LogSavePackage: Total save time: 35.914753ms
+[2015.10.22-10.07.41:425][842]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.07.43:331][ 23]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.07.43:354][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BECEBE87C0
+[2015.10.22-10.07.45:701][183]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.07.45:766][183]BlueprintEditorCompileResults: Info [1740.01] Compile of MyPlayer successful! [in 64 ms]
+[2015.10.22-10.07.46:328][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.07.46:358][221]LogSavePackage: Save=28.307455ms
+[2015.10.22-10.07.46:358][221]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer87958EFB407194CB3DCD09B0E560ED56.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.07.46:358][221]LogSavePackage: Total save time: 29.596414ms
+[2015.10.22-10.07.46:358][221]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.07.47:658][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.07.47:658][309]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:07:47 PM)
+[2015.10.22-10.07.47:658][309]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.07.47:659][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001081s)
+[2015.10.22-10.07.47:660][309]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.07.47:660][309]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2015.10.22-10.07.47:660][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.001728s)
+[2015.10.22-10.07.47:660][309]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.22-10.07.47:689][309]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.07.47:697][309]LogInit: FAudioDevice initialized.
+[2015.10.22-10.07.47:729][309]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.07.47:730][309]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.07.47
+[2015.10.22-10.07.47:730][309]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.07.47:730][309]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.07.47:731][309]LogWorld: Bringing up level for play took: 0.001190
+[2015.10.22-10.07.47:732][309]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.51
+[2015.10.22-10.07.53:755][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEF28B2F20
+[2015.10.22-10.08.04:169][640]LogEditorTransaction: Undo Modify Component(s)
+[2015.10.22-10.08.04:191][640]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.22-10.08.10:263][ 28]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.22-10.08.15:271][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.22-10.08.19:317][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.22-10.08.26:665][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.22-10.08.30:597][378]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.22-10.09.18:270][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.22-10.09.24:814][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.10.22-10.09.31:274][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.10.22-10.10.02:340][468]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.10.02:437][468]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.10.22-10.10.02:464][468]BlueprintEditorCompileResults: Info [1876.70] Compile of MyPlayer successful! [in 124 ms]
+[2015.10.22-10.10.03:003][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.10.03:038][502]LogSavePackage: Save=32.562687ms
+[2015.10.22-10.10.03:038][502]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer41A0387A41C88B58E59E2F9075E84830.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.10.03:039][502]LogSavePackage: Total save time: 34.967810ms
+[2015.10.22-10.10.03:039][502]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.10.04:286][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.10.04:286][588]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:10:04 PM)
+[2015.10.22-10.10.04:286][588]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.10.04:288][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001640s)
+[2015.10.22-10.10.04:289][588]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.10.04:289][588]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2015.10.22-10.10.04:289][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002452s)
+[2015.10.22-10.10.04:289][588]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.10.22-10.10.04:317][588]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.10.04:325][588]LogInit: FAudioDevice initialized.
+[2015.10.22-10.10.04:355][588]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.10.04:357][588]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.10.04
+[2015.10.22-10.10.04:357][588]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.10.04:357][588]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.10.04:357][588]LogWorld: Bringing up level for play took: 0.001186
+[2015.10.22-10.10.04:358][588]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.116
+[2015.10.22-10.10.16:109][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF1115E340
+[2015.10.22-10.10.26:359][664]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.10.26:453][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.10.22-10.10.26:478][664]BlueprintEditorCompileResults: Info [1900.72] Compile of MyPlayer successful! [in 119 ms]
+[2015.10.22-10.10.26:927][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.10.26:958][696]LogSavePackage: Save=30.102783ms
+[2015.10.22-10.10.26:958][696]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerC4FE79C34A88A6F598BF14BEFC534915.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.10.26:959][696]LogSavePackage: Total save time: 31.742208ms
+[2015.10.22-10.10.26:959][696]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.10.28:185][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.10.28:185][781]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:10:28 PM)
+[2015.10.22-10.10.28:185][781]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.10.28:186][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001250s)
+[2015.10.22-10.10.28:187][781]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.10.28:188][781]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2015.10.22-10.10.28:188][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002082s)
+[2015.10.22-10.10.28:188][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.10.22-10.10.28:214][781]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.10.28:223][781]LogInit: FAudioDevice initialized.
+[2015.10.22-10.10.28:252][781]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.10.28:254][781]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.10.28
+[2015.10.22-10.10.28:254][781]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.10.28:254][781]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.10.28:254][781]LogWorld: Bringing up level for play took: 0.001059
+[2015.10.22-10.10.28:256][781]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.013
+[2015.10.22-10.10.35:919][682]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF0A2D6340
+[2015.10.22-10.10.42:892][152]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.10.42:992][152]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.10.22-10.10.43:017][152]BlueprintEditorCompileResults: Info [1917.26] Compile of MyPlayer successful! [in 124 ms]
+[2015.10.22-10.10.43:468][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.10.43:497][181]LogSavePackage: Save=26.907904ms
+[2015.10.22-10.10.43:497][181]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer2AF9516F4D622B13A0C9B5AD17EBE772.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.10.43:498][181]LogSavePackage: Total save time: 29.250301ms
+[2015.10.22-10.10.43:498][181]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.10.44:721][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.10.44:721][266]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:10:44 PM)
+[2015.10.22-10.10.44:721][266]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.10.44:722][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001261s)
+[2015.10.22-10.10.44:723][266]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.10.44:723][266]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2015.10.22-10.10.44:723][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.001887s)
+[2015.10.22-10.10.44:723][266]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.10.22-10.10.44:751][266]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.10.44:762][266]LogInit: FAudioDevice initialized.
+[2015.10.22-10.10.44:796][266]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.10.44:798][266]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.10.44
+[2015.10.22-10.10.44:798][266]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.10.44:798][266]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.10.44:798][266]LogWorld: Bringing up level for play took: 0.001366
+[2015.10.22-10.10.44:802][266]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.559
+[2015.10.22-10.11.17:334][770]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.10.22-10.11.17:355][770]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF06BF6840
+[2015.10.22-10.11.20:296][969]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.11.20:415][969]BlueprintEditorCompileResults: Info [1954.65] Compile of MyPlayer successful! [in 118 ms]
+[2015.10.22-10.11.21:884][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.11.21:944][ 67]LogSavePackage: Save=56.593662ms
+[2015.10.22-10.11.21:944][ 67]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerDCF22E834CAA7FE986653DA1B1CF2E09.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.11.21:945][ 67]LogSavePackage: Total save time: 60.640257ms
+[2015.10.22-10.11.21:945][ 67]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.11.34:476][916]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.11.34:574][916]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.10.22-10.11.34:599][916]BlueprintEditorCompileResults: Info [1968.84] Compile of MyPlayer successful! [in 123 ms]
+[2015.10.22-10.11.35:095][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.11.35:126][947]LogSavePackage: Save=28.718592ms
+[2015.10.22-10.11.35:126][947]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer0DEC14B24DDBAA62BB39559EA3C54DD7.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.11.35:127][947]LogSavePackage: Total save time: 30.466303ms
+[2015.10.22-10.11.35:127][947]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.11.36:119][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.11.36:119][ 16]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:11:36 PM)
+[2015.10.22-10.11.36:119][ 16]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.11.36:121][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001514s)
+[2015.10.22-10.11.36:121][ 16]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.11.36:121][ 16]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2015.10.22-10.11.36:121][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002142s)
+[2015.10.22-10.11.36:121][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.10.22-10.11.36:147][ 16]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.11.36:155][ 16]LogInit: FAudioDevice initialized.
+[2015.10.22-10.11.36:186][ 16]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.11.36:188][ 16]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.11.36
+[2015.10.22-10.11.36:188][ 16]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.11.36:188][ 16]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.11.36:188][ 16]LogWorld: Bringing up level for play took: 0.001280
+[2015.10.22-10.11.36:190][ 16]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.052
+[2015.10.22-10.11.42:163][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEE7CE7920
+[2015.10.22-10.11.55:780][644]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.10.22-10.11.58:127][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.11.58:127][805]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:11:58 PM)
+[2015.10.22-10.11.58:127][805]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.11.58:128][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001315s)
+[2015.10.22-10.11.58:128][805]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.11.58:129][805]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2015.10.22-10.11.58:129][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002102s)
+[2015.10.22-10.11.58:129][805]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.10.22-10.11.58:158][805]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.11.58:166][805]LogInit: FAudioDevice initialized.
+[2015.10.22-10.11.58:201][805]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.11.58:203][805]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.11.58
+[2015.10.22-10.11.58:203][805]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.11.58:203][805]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.11.58:203][805]LogWorld: Bringing up level for play took: 0.001084
+[2015.10.22-10.11.58:205][805]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.038
+[2015.10.22-10.12.01:045][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEE7ACE340
+[2015.10.22-10.12.14:994][231]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.12.17:444][458]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.12.40:267][167]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.12.40:371][167]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.10.22-10.12.40:395][167]BlueprintEditorCompileResults: Info [2034.63] Compile of MyPlayer successful! [in 127 ms]
+[2015.10.22-10.12.41:281][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.12.41:311][228]LogSavePackage: Save=28.951040ms
+[2015.10.22-10.12.41:311][228]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer9443A101433FEC70D4D8978E1659E083.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.12.41:312][228]LogSavePackage: Total save time: 30.761216ms
+[2015.10.22-10.12.41:312][228]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.12.42:166][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-10.12.43:711][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.12.43:711][398]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:12:43 PM)
+[2015.10.22-10.12.43:711][398]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.12.43:713][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001729s)
+[2015.10.22-10.12.43:713][398]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.12.43:713][398]LogPlayLevel: PIE: World Init took: (0.000655s)
+[2015.10.22-10.12.43:714][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002548s)
+[2015.10.22-10.12.43:714][398]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.10.22-10.12.43:741][398]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.12.43:750][398]LogInit: FAudioDevice initialized.
+[2015.10.22-10.12.43:783][398]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.12.43:784][398]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.12.43
+[2015.10.22-10.12.43:784][398]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.12.43:784][398]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.12.43:785][398]LogWorld: Bringing up level for play took: 0.001122
+[2015.10.22-10.12.43:786][398]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.457
+[2015.10.22-10.12.49:824][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEE78CD6C0
+[2015.10.22-10.15.01:340][190]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.15.01:376][190]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.10.22-10.15.01:401][190]BlueprintEditorCompileResults: Info [2175.64] Compile of MyPlayer successful! [in 61 ms]
+[2015.10.22-10.15.01:827][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.15.01:861][229]LogSavePackage: Save=31.785473ms
+[2015.10.22-10.15.01:861][229]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerAB3D749D462971ABC34F62AD59E7CE56.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.15.01:862][229]LogSavePackage: Total save time: 33.584639ms
+[2015.10.22-10.15.01:862][229]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.15.02:437][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-10.15.03:205][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.15.03:205][367]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:15:03 PM)
+[2015.10.22-10.15.03:205][367]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.15.03:206][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001191s)
+[2015.10.22-10.15.03:207][367]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.15.03:207][367]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2015.10.22-10.15.03:207][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002400s)
+[2015.10.22-10.15.03:207][367]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.10.22-10.15.03:236][367]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.15.03:244][367]LogInit: FAudioDevice initialized.
+[2015.10.22-10.15.03:280][367]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.15.03:282][367]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.15.03
+[2015.10.22-10.15.03:282][367]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.15.03:282][367]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.15.03:282][367]LogWorld: Bringing up level for play took: 0.001121
+[2015.10.22-10.15.03:284][367]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 1.041
+[2015.10.22-10.15.15:904][697]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF0C1691C0
+[2015.10.22-10.16.06:303][910]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Script/Engine.Character'
+[2015.10.22-10.16.13:702][659]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.16.13:741][659]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.10.22-10.16.13:765][659]BlueprintEditorCompileResults: Info [2248.00] Compile of MyPlayer successful! [in 62 ms]
+[2015.10.22-10.16.14:759][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.16.14:791][759]LogSavePackage: Save=31.005695ms
+[2015.10.22-10.16.14:791][759]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer64E031714C42C032143E829CC2A22478.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.16.14:792][759]LogSavePackage: Total save time: 32.736510ms
+[2015.10.22-10.16.14:792][759]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.16.16:156][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.16.16:157][895]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:16:16 PM)
+[2015.10.22-10.16.16:157][895]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.16.16:158][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001847s)
+[2015.10.22-10.16.16:159][895]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.16.16:159][895]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2015.10.22-10.16.16:159][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002792s)
+[2015.10.22-10.16.16:159][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.10.22-10.16.16:190][895]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.16.16:199][895]LogInit: FAudioDevice initialized.
+[2015.10.22-10.16.16:231][895]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.16.16:233][895]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.16.16
+[2015.10.22-10.16.16:233][895]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.16.16:234][895]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.16.16:234][895]LogWorld: Bringing up level for play took: 0.001297
+[2015.10.22-10.16.16:235][895]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.007
+[2015.10.22-10.16.52:593][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEE77D5B20
+[2015.10.22-10.18.04:640][457]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.18.04:677][457]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.10.22-10.18.04:703][457]BlueprintEditorCompileResults: Info [2358.94] Compile of MyPlayer successful! [in 63 ms]
+[2015.10.22-10.18.05:131][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.18.05:166][497]LogSavePackage: Save=30.595327ms
+[2015.10.22-10.18.05:166][497]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer92AC66724D501A12DFAAB8882D7CF6EB.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.18.05:167][497]LogSavePackage: Total save time: 35.848960ms
+[2015.10.22-10.18.05:167][497]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.18.06:623][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-10.18.07:172][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.18.07:172][704]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:18:07 PM)
+[2015.10.22-10.18.07:172][704]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.18.07:174][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001788s)
+[2015.10.22-10.18.07:175][704]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.18.07:175][704]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2015.10.22-10.18.07:175][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.003064s)
+[2015.10.22-10.18.07:175][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.10.22-10.18.07:203][704]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.18.07:211][704]LogInit: FAudioDevice initialized.
+[2015.10.22-10.18.07:245][704]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.18.07:247][704]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.18.07
+[2015.10.22-10.18.07:247][704]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.18.07:247][704]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.18.07:247][704]LogWorld: Bringing up level for play took: 0.001145
+[2015.10.22-10.18.07:249][704]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 1.007
+[2015.10.22-10.18.10:999][102]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF0A3DA340
+[2015.10.22-10.18.15:917][600]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Script/Engine.Character'
+[2015.10.22-10.18.50:055][254]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.18.50:062][254]LogBlueprint:Error: [compiler MyPlayer] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.10.22-10.18.50:131][254]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2015.10.22-10.18.50:158][254]LogBlueprint:Warning: [compiler MyPlayer] Warning [2404.40] Compile of MyPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 103 ms]
+[2015.10.22-10.18.50:158][254]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.10.22-10.18.50:158][254]BlueprintEditorCompileResults:Warning: Warning [2404.40] Compile of MyPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 103 ms]
+[2015.10.22-10.18.50:506][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.18.50:540][286]LogSavePackage: Save=32.554241ms
+[2015.10.22-10.18.50:540][286]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer80E4C0E54665CF3FFC51378FB27D684D.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.18.50:541][286]LogSavePackage: Total save time: 34.331392ms
+[2015.10.22-10.18.50:541][286]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.20.59:417][765]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.20.59:423][765]LogBlueprint:Error: [compiler MyPlayer] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.10.22-10.20.59:489][765]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2015.10.22-10.20.59:514][765]LogBlueprint:Warning: [compiler MyPlayer] Warning [2533.75] Compile of MyPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms]
+[2015.10.22-10.20.59:514][765]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.10.22-10.20.59:514][765]BlueprintEditorCompileResults:Warning: Warning [2533.75] Compile of MyPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 97 ms]
+[2015.10.22-10.21.00:452][866]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.21.00:458][866]LogBlueprint:Error: [compiler MyPlayer] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.10.22-10.21.00:521][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2015.10.22-10.21.00:547][866]LogBlueprint:Warning: [compiler MyPlayer] Warning [2534.79] Compile of MyPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 94 ms]
+[2015.10.22-10.21.00:547][866]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.10.22-10.21.00:547][866]BlueprintEditorCompileResults:Warning: Warning [2534.79] Compile of MyPlayer failed. 1 Fatal Issue(s) 0 Warning(s) [in 94 ms]
+[2015.10.22-10.21.23:083][212]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Script/Engine.Character'
+[2015.10.22-10.21.27:573][636]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.21.27:607][636]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2015.10.22-10.21.27:636][636]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyPlayer', cached variable property's owner is '/Script/Engine.Character'
+[2015.10.22-10.21.27:637][636]BlueprintEditorCompileResults: Info [2561.88] Compile of MyPlayer successful! [in 63 ms]
+[2015.10.22-10.21.27:653][636]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Script/Engine.Character'
+[2015.10.22-10.21.28:349][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.21.28:382][702]LogSavePackage: Save=31.002625ms
+[2015.10.22-10.21.28:382][702]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerF9488C544F84C84E1B360F8EC2495B28.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.21.28:383][702]LogSavePackage: Total save time: 32.638978ms
+[2015.10.22-10.21.28:383][702]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.21.29:567][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.21.29:567][817]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:21:29 PM)
+[2015.10.22-10.21.29:567][817]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.21.29:568][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001214s)
+[2015.10.22-10.21.29:568][817]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.21.29:569][817]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2015.10.22-10.21.29:569][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002013s)
+[2015.10.22-10.21.29:569][817]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2015.10.22-10.21.29:595][817]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.21.29:602][817]LogInit: FAudioDevice initialized.
+[2015.10.22-10.21.29:636][817]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.21.29:638][817]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.21.29
+[2015.10.22-10.21.29:638][817]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.21.29:638][817]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.21.29:638][817]LogWorld: Bringing up level for play took: 0.001266
+[2015.10.22-10.21.29:640][817]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.602
+[2015.10.22-10.21.34:771][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BE98E12C00
+[2015.10.22-10.21.41:290][963]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.21.41:329][963]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2015.10.22-10.21.41:357][963]BlueprintEditorCompileResults: Info [2575.60] Compile of MyPlayer successful! [in 67 ms]
+[2015.10.22-10.21.41:811][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.21.41:850][  6]LogSavePackage: Save=37.261566ms
+[2015.10.22-10.21.41:850][  6]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer6779903B485060E0870E57B746B4D1EC.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.21.41:851][  6]LogSavePackage: Total save time: 39.081473ms
+[2015.10.22-10.21.41:851][  6]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.21.42:541][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-10.21.43:911][224]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.21.43:911][224]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:21:43 PM)
+[2015.10.22-10.21.43:911][224]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.21.43:912][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001330s)
+[2015.10.22-10.21.43:913][224]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.21.43:913][224]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2015.10.22-10.21.43:913][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002190s)
+[2015.10.22-10.21.43:913][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2015.10.22-10.21.43:940][224]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.21.43:950][224]LogInit: FAudioDevice initialized.
+[2015.10.22-10.21.43:984][224]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.21.43:986][224]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.21.43
+[2015.10.22-10.21.43:986][224]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.21.43:986][224]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.21.43:986][224]LogWorld: Bringing up level for play took: 0.001068
+[2015.10.22-10.21.43:988][224]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.255
+[2015.10.22-10.21.49:813][818]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF19EF34C0
+[2015.10.22-10.22.16:871][634]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Script/Engine.Character'
+[2015.10.22-10.23.01:684][505]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2015.10.22-10.23.01:714][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/MainLVL_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2015.10.22-10.23.01:735][505]LogSavePackage: Save=15.757056ms
+[2015.10.22-10.23.01:735][505]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MainLVL_Auto13D513C3E45111E53B9225BA8909CCE83.tmp' to '../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/MainLVL_Auto1.umap'
+[2015.10.22-10.23.01:735][505]LogSavePackage: Total save time: 19.491073ms
+[2015.10.22-10.23.01:735][505]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/MainLVL_Auto1.umap
+[2015.10.22-10.23.01:736][505]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainLVL' took 0.052
+[2015.10.22-10.23.01:736][505]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.052
+[2015.10.22-10.23.01:741][505]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyPlayer] ([1] browsable assets)...
+[2015.10.22-10.23.01:758][505]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyPlayer.MyPlayer]
+[2015.10.22-10.23.01:758][505]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayer]
+[2015.10.22-10.23.01:758][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/Blueprints/MyPlayer_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.10.22-10.23.01:787][505]LogSavePackage: Save=28.005119ms
+[2015.10.22-10.23.01:787][505]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer_Auto1053817884CEE3B6BBCC3829969DBF838.tmp' to '../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/Blueprints/MyPlayer_Auto1.uasset'
+[2015.10.22-10.23.01:787][505]LogSavePackage: Total save time: 29.131517ms
+[2015.10.22-10.23.01:787][505]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Saved/Autosaves/Game/Blueprints/MyPlayer_Auto1.uasset
+[2015.10.22-10.23.01:787][505]LogFileHelpers: Auto-saving content packages took 0.051
+[2015.10.22-10.23.57:757][250]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.23.57:791][250]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2015.10.22-10.23.57:814][250]BlueprintEditorCompileResults: Info [2712.05] Compile of MyPlayer successful! [in 57 ms]
+[2015.10.22-10.23.58:276][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.23.58:310][300]LogSavePackage: Save=29.053696ms
+[2015.10.22-10.23.58:310][300]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerCCE8774043B87F533FF555B4248995AD.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.23.58:312][300]LogSavePackage: Total save time: 34.378752ms
+[2015.10.22-10.23.58:312][300]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.24.02:088][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.24.02:088][752]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:24:02 PM)
+[2015.10.22-10.24.02:088][752]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.24.02:089][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001318s)
+[2015.10.22-10.24.02:090][752]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.24.02:090][752]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2015.10.22-10.24.02:090][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002149s)
+[2015.10.22-10.24.02:090][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2015.10.22-10.24.02:115][752]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.24.02:123][752]LogInit: FAudioDevice initialized.
+[2015.10.22-10.24.02:156][752]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.24.02:159][752]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.24.02
+[2015.10.22-10.24.02:159][752]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.24.02:159][752]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.24.02:159][752]LogWorld: Bringing up level for play took: 0.001400
+[2015.10.22-10.24.02:161][752]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.082
+[2015.10.22-10.24.26:503][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF1A3982C0
+[2015.10.22-10.26.42:602][316]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_155.EdGraphPin_3160''
+[2015.10.22-10.26.42:602][316]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.10.22-10.26.42:603][316]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.10.22-10.26.42:603][316]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPinType:PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C')'
+[2015.10.22-10.26.42:603][316]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_43.EdGraphPin_2562''
+[2015.10.22-10.26.42:603][316]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4678.EdGraphPin_3191''
+[2015.10.22-10.26.42:603][316]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3716.EdGraphPin_3214''
+[2015.10.22-10.26.42:603][316]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_InputAxisEvent_43.EdGraphPin_2561''
+[2015.10.22-10.26.42:603][316]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2015.10.22-10.26.42:603][316]LogProperty:Warning: ObjectProperty /Script/Engine.SimpleMemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C',MemberName="InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38"))'
+[2015.10.22-10.26.42:604][316]LogBlueprint:Warning: [MyPlayer] CreatePinForVariable: 'BaseTurnRate' variable not found. Base class was probably changed.
+[2015.10.22-10.26.42:612][316]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2015.10.22-10.28.13:921][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2015.10.22-10.28.13:945][187]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.29:133][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2015.10.22-10.28.29:154][  5]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.31:740][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2015.10.22-10.28.31:743][313]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.31:762][313]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.32:435][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2015.10.22-10.28.32:438][394]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.32:448][394]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.32:471][394]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.35:905][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2015.10.22-10.28.35:909][798]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.35:917][798]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.35:924][798]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.35:945][798]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.42:938][637]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.28.42:948][637]LogBlueprint:Warning: [compiler MyPlayer] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.10.22-10.28.42:948][637]LogBlueprint:Warning: [compiler MyPlayer] Warning Could not find a variable named "BaseTurnRate" in 'MyPlayer_C'.
+Make sure 'MyPlayer_C' has been compiled for  Get BaseTurnRate 
+[2015.10.22-10.28.42:948][637]LogBlueprint:Error: [compiler MyPlayer] Error The property associated with  Base Turn Rate  could not be found
+[2015.10.22-10.28.43:018][637]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2015.10.22-10.28.43:047][637]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.43:048][637]LogBlueprint:Warning: [compiler MyPlayer] Warning [2997.29] Compile of MyPlayer failed. 1 Fatal Issue(s) 2 Warning(s) [in 109 ms]
+[2015.10.22-10.28.43:048][637]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate 
+[2015.10.22-10.28.43:048][637]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "BaseTurnRate" in 'MyPlayer_C'.
+Make sure 'MyPlayer_C' has been compiled for  Get BaseTurnRate 
+[2015.10.22-10.28.43:048][637]BlueprintEditorCompileResults:Error: Error The property associated with  Base Turn Rate  could not be found
+[2015.10.22-10.28.43:048][637]BlueprintEditorCompileResults:Warning: Warning [2997.29] Compile of MyPlayer failed. 1 Fatal Issue(s) 2 Warning(s) [in 109 ms]
+[2015.10.22-10.28.43:062][637]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.45:613][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2015.10.22-10.28.46:982][106]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.53:223][855]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.28.54:106][960]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.29.01:566][845]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.29.02:266][927]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.29.06:330][413]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.29.32:295][522]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2015.10.22-10.29.46:462][203]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.30.00:189][836]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.30.00:235][836]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2015.10.22-10.30.00:264][836]BlueprintEditorCompileResults: Info [3074.50] Compile of MyPlayer successful! [in 74 ms]
+[2015.10.22-10.30.00:727][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.30.00:768][886]LogSavePackage: Save=35.496449ms
+[2015.10.22-10.30.00:768][886]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer18D60E484715A40F8097589ABB610F54.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.30.00:770][886]LogSavePackage: Total save time: 42.179585ms
+[2015.10.22-10.30.00:770][886]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.30.02:434][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.30.02:434][ 84]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:30:02 PM)
+[2015.10.22-10.30.02:434][ 84]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.30.02:435][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001112s)
+[2015.10.22-10.30.02:436][ 84]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.30.02:436][ 84]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2015.10.22-10.30.02:436][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.001947s)
+[2015.10.22-10.30.02:436][ 84]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2015.10.22-10.30.02:463][ 84]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.30.02:471][ 84]LogInit: FAudioDevice initialized.
+[2015.10.22-10.30.02:505][ 84]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.30.02:507][ 84]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.30.02
+[2015.10.22-10.30.02:507][ 84]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.30.02:507][ 84]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.30.02:507][ 84]LogWorld: Bringing up level for play took: 0.001566
+[2015.10.22-10.30.02:510][ 84]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.267
+[2015.10.22-10.30.10:286][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF1A31A980
+[2015.10.22-10.30.23:608][584]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.30.23:650][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
+[2015.10.22-10.30.23:677][584]BlueprintEditorCompileResults: Info [3097.92] Compile of MyPlayer successful! [in 68 ms]
+[2015.10.22-10.30.24:109][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.30.24:146][630]LogSavePackage: Save=35.032578ms
+[2015.10.22-10.30.24:146][630]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer1BE592ED4B4F5CC15C7BC794B80C2078.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.30.24:147][630]LogSavePackage: Total save time: 36.897283ms
+[2015.10.22-10.30.24:147][630]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.30.25:494][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.30.25:494][790]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:30:25 PM)
+[2015.10.22-10.30.25:494][790]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.30.25:495][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001188s)
+[2015.10.22-10.30.25:496][790]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.30.25:496][790]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2015.10.22-10.30.25:496][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.001953s)
+[2015.10.22-10.30.25:496][790]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
+[2015.10.22-10.30.25:524][790]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.30.25:532][790]LogInit: FAudioDevice initialized.
+[2015.10.22-10.30.25:567][790]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.30.25:570][790]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.30.25
+[2015.10.22-10.30.25:570][790]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.30.25:570][790]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.30.25:570][790]LogWorld: Bringing up level for play took: 0.001659
+[2015.10.22-10.30.25:572][790]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.67
+[2015.10.22-10.30.54:864][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEF3BDA8E0
+[2015.10.22-10.31.12:506][344]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.31.12:549][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2015.10.22-10.31.12:577][344]BlueprintEditorCompileResults: Info [3146.82] Compile of MyPlayer successful! [in 71 ms]
+[2015.10.22-10.31.13:057][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.31.13:093][396]LogSavePackage: Save=34.482689ms
+[2015.10.22-10.31.13:093][396]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer128456DA4E5FCDB26DC212A57CCD4BFF.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.31.13:094][396]LogSavePackage: Total save time: 36.343552ms
+[2015.10.22-10.31.13:094][396]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.31.14:791][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.31.14:791][597]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:31:14 PM)
+[2015.10.22-10.31.14:791][597]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.31.14:792][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001211s)
+[2015.10.22-10.31.14:793][597]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.31.14:793][597]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2015.10.22-10.31.14:793][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002012s)
+[2015.10.22-10.31.14:793][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2015.10.22-10.31.14:820][597]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.31.14:829][597]LogInit: FAudioDevice initialized.
+[2015.10.22-10.31.14:861][597]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.31.14:863][597]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.31.14
+[2015.10.22-10.31.14:863][597]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.31.14:863][597]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.31.14:863][597]LogWorld: Bringing up level for play took: 0.001124
+[2015.10.22-10.31.14:865][597]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.623
+[2015.10.22-10.31.24:462][737]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF1109A340
+[2015.10.22-10.31.30:596][468]LogEditorTransaction: Undo Create Pin Link
+[2015.10.22-10.31.31:024][503]LogEditorTransaction: Undo Create Pin Link
+[2015.10.22-10.31.31:027][503]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
+[2015.10.22-10.31.31:948][608]LogEditorTransaction: Undo Move Node
+[2015.10.22-10.31.31:951][608]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
+[2015.10.22-10.31.48:472][580]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.31.56:938][594]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.31.56:977][594]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
+[2015.10.22-10.31.57:003][594]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.31.57:003][594]BlueprintEditorCompileResults: Info [3191.24] Compile of MyPlayer successful! [in 65 ms]
+[2015.10.22-10.31.57:016][594]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.31.57:789][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.31.57:829][682]LogSavePackage: Save=37.965569ms
+[2015.10.22-10.31.57:829][682]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer51CA61BD4063B143E07C00868C54FE58.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.31.57:830][682]LogSavePackage: Total save time: 40.124159ms
+[2015.10.22-10.31.57:830][682]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.31.59:814][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.31.59:814][918]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:31:59 PM)
+[2015.10.22-10.31.59:814][918]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.31.59:815][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001203s)
+[2015.10.22-10.31.59:815][918]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.31.59:816][918]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2015.10.22-10.31.59:816][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.001895s)
+[2015.10.22-10.31.59:816][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
+[2015.10.22-10.31.59:845][918]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.31.59:853][918]LogInit: FAudioDevice initialized.
+[2015.10.22-10.31.59:889][918]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.31.59:891][918]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.31.59
+[2015.10.22-10.31.59:891][918]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.31.59:892][918]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.31.59:892][918]LogWorld: Bringing up level for play took: 0.001167
+[2015.10.22-10.31.59:894][918]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.349
+[2015.10.22-10.32.10:876][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF156F6FC0
+[2015.10.22-10.32.33:579][913]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.32.33:618][913]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
+[2015.10.22-10.32.33:641][913]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.32.33:642][913]BlueprintEditorCompileResults: Info [3227.88] Compile of MyPlayer successful! [in 63 ms]
+[2015.10.22-10.32.33:655][913]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'MyPlayer', cached variable property's owner is '/Game/Blueprints/MyPlayer.SKEL_MyPlayer_C'
+[2015.10.22-10.32.34:220][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.32.34:257][977]LogSavePackage: Save=36.057343ms
+[2015.10.22-10.32.34:257][977]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerDA2508CB48A281A74A105F8931436052.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.32.34:259][977]LogSavePackage: Total save time: 38.202625ms
+[2015.10.22-10.32.34:259][977]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.32.36:380][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.32.36:380][230]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:32:36 PM)
+[2015.10.22-10.32.36:380][230]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.32.36:381][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001070s)
+[2015.10.22-10.32.36:381][230]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.32.36:381][230]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2015.10.22-10.32.36:382][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.001748s)
+[2015.10.22-10.32.36:382][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
+[2015.10.22-10.32.36:409][230]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.32.36:417][230]LogInit: FAudioDevice initialized.
+[2015.10.22-10.32.36:447][230]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.32.36:449][230]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.32.36
+[2015.10.22-10.32.36:449][230]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_27 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.32.36:450][230]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.32.36:450][230]LogWorld: Bringing up level for play took: 0.001632
+[2015.10.22-10.32.36:452][230]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.209
+[2015.10.22-10.32.40:979][764]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF19FFA520
+[2015.10.22-10.32.57:193][606]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.32.57:238][606]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
+[2015.10.22-10.32.57:263][606]BlueprintEditorCompileResults: Info [3251.50] Compile of MyPlayer successful! [in 69 ms]
+[2015.10.22-10.32.57:703][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.32.57:737][653]LogSavePackage: Save=32.223999ms
+[2015.10.22-10.32.57:737][653]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer240913354306565BDDBBF2905152C340.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.32.57:738][653]LogSavePackage: Total save time: 34.305278ms
+[2015.10.22-10.32.57:738][653]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.32.59:803][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.32.59:803][899]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:32:59 PM)
+[2015.10.22-10.32.59:803][899]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.32.59:804][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001338s)
+[2015.10.22-10.32.59:805][899]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.32.59:805][899]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2015.10.22-10.32.59:805][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002070s)
+[2015.10.22-10.32.59:805][899]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_60) Not registered. Aborting.
+[2015.10.22-10.32.59:832][899]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.32.59:840][899]LogInit: FAudioDevice initialized.
+[2015.10.22-10.32.59:872][899]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.32.59:874][899]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.32.59
+[2015.10.22-10.32.59:874][899]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_28 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.32.59:874][899]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.32.59:874][899]LogWorld: Bringing up level for play took: 0.001062
+[2015.10.22-10.32.59:875][899]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.367
+[2015.10.22-10.33.11:942][338]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF14373F60
+[2015.10.22-10.33.20:529][349]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.33.20:570][349]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_61) Not registered. Aborting.
+[2015.10.22-10.33.20:596][349]BlueprintEditorCompileResults: Info [3274.83] Compile of MyPlayer successful! [in 66 ms]
+[2015.10.22-10.33.21:052][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.33.21:086][398]LogSavePackage: Save=33.157631ms
+[2015.10.22-10.33.21:086][398]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerA9CB89E349A8B46B351D54B483F4CE04.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.33.21:087][398]LogSavePackage: Total save time: 34.854401ms
+[2015.10.22-10.33.21:087][398]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.33.24:040][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLVL" FILE="../../../../../../MyGAMES/MyProject2/Content/MainLVL.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.22-10.33.24:041][749]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_62) Not registered. Aborting.
+[2015.10.22-10.33.24:082][749]LogSavePackage: Save=16.685823ms
+[2015.10.22-10.33.24:082][749]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MainLVL712C4C2D4A04B3FFBFCC67A33BCE60D2.tmp' to '../../../../../../MyGAMES/MyProject2/Content/MainLVL.umap'
+[2015.10.22-10.33.24:083][749]LogSavePackage: Total save time: 21.465085ms
+[2015.10.22-10.33.24:083][749]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/MainLVL.umap
+[2015.10.22-10.33.25:247][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.33.25:247][885]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:33:25 PM)
+[2015.10.22-10.33.25:247][885]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.33.25:248][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001237s)
+[2015.10.22-10.33.25:249][885]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.33.25:249][885]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2015.10.22-10.33.25:249][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002273s)
+[2015.10.22-10.33.25:280][885]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.33.25:290][885]LogInit: FAudioDevice initialized.
+[2015.10.22-10.33.25:319][885]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.33.25:321][885]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.33.25
+[2015.10.22-10.33.25:321][885]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_29 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.33.25:322][885]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.33.25:322][885]LogWorld: Bringing up level for play took: 0.001416
+[2015.10.22-10.33.25:323][885]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.919
+[2015.10.22-10.33.33:525][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF14370180
+[2015.10.22-10.33.39:129][518]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.33.39:166][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.33.39:192][518]BlueprintEditorCompileResults: Info [3293.43] Compile of MyPlayer successful! [in 63 ms]
+[2015.10.22-10.33.40:035][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.33.40:068][615]LogSavePackage: Save=31.306496ms
+[2015.10.22-10.33.40:068][615]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer974F3AD04B37A22695EDAF999C56EE25.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.33.40:069][615]LogSavePackage: Total save time: 33.217281ms
+[2015.10.22-10.33.40:069][615]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.33.42:080][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.33.42:080][855]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:33:42 PM)
+[2015.10.22-10.33.42:080][855]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.33.42:081][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001434s)
+[2015.10.22-10.33.42:082][855]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.33.42:082][855]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2015.10.22-10.33.42:082][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002537s)
+[2015.10.22-10.33.42:082][855]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.33.42:111][855]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.33.42:120][855]LogInit: FAudioDevice initialized.
+[2015.10.22-10.33.42:154][855]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.33.42:156][855]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.33.42
+[2015.10.22-10.33.42:156][855]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.33.42:156][855]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.33.42:157][855]LogWorld: Bringing up level for play took: 0.001304
+[2015.10.22-10.33.42:159][855]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.083
+[2015.10.22-10.33.53:534][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF11099260
+[2015.10.22-10.34.20:388][408]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_3716.EdGraphPin_23990''
+[2015.10.22-10.34.20:388][408]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4678.EdGraphPin_23970''
+[2015.10.22-10.34.20:388][408]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_1304.EdGraphPin_24530''
+[2015.10.22-10.34.36:641][327]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.34.36:678][327]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.34.36:703][327]BlueprintEditorCompileResults: Info [3350.94] Compile of MyPlayer successful! [in 62 ms]
+[2015.10.22-10.34.37:166][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.34.37:205][377]LogSavePackage: Save=37.441025ms
+[2015.10.22-10.34.37:205][377]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerEB8E3D0240B8C61E465273B481829DB4.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.34.37:206][377]LogSavePackage: Total save time: 39.392002ms
+[2015.10.22-10.34.37:206][377]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.34.39:276][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.34.39:276][622]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:34:39 PM)
+[2015.10.22-10.34.39:276][622]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.34.39:277][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001100s)
+[2015.10.22-10.34.39:278][622]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.34.39:278][622]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2015.10.22-10.34.39:278][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.001951s)
+[2015.10.22-10.34.39:278][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.34.39:304][622]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.34.39:312][622]LogInit: FAudioDevice initialized.
+[2015.10.22-10.34.39:348][622]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.34.39:350][622]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.34.39
+[2015.10.22-10.34.39:350][622]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.34.39:350][622]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.34.39:350][622]LogWorld: Bringing up level for play took: 0.001339
+[2015.10.22-10.34.39:352][622]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.891
+[2015.10.22-10.34.49:989][890]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF0C079BC0
+[2015.10.22-10.34.59:382][  8]LogEditorTransaction: Undo Create Pin Link
+[2015.10.22-10.34.59:815][ 43]LogEditorTransaction: Undo Create Pin Link
+[2015.10.22-10.34.59:819][ 43]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.35.00:248][ 89]LogEditorTransaction: Undo Move Nodes
+[2015.10.22-10.35.00:252][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_63) Not registered. Aborting.
+[2015.10.22-10.35.00:745][146]LogEditorTransaction: Undo Paste clipboard contents
+[2015.10.22-10.35.00:750][146]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_64) Not registered. Aborting.
+[2015.10.22-10.35.44:408][329]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.35.44:446][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_65) Not registered. Aborting.
+[2015.10.22-10.35.44:473][329]BlueprintEditorCompileResults: Info [3418.71] Compile of MyPlayer successful! [in 64 ms]
+[2015.10.22-10.35.45:429][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.35.45:466][439]LogSavePackage: Save=32.212734ms
+[2015.10.22-10.35.45:466][439]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer81F78C704946328B21BA6F9FF9996FB8.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.35.45:467][439]LogSavePackage: Total save time: 37.235968ms
+[2015.10.22-10.35.45:467][439]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.37.12:774][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.37.21:300][381]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.37.21:337][381]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_66) Not registered. Aborting.
+[2015.10.22-10.37.21:361][381]BlueprintEditorCompileResults: Info [3515.60] Compile of MyPlayer successful! [in 61 ms]
+[2015.10.22-10.37.21:708][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.37.21:743][418]LogSavePackage: Save=33.449986ms
+[2015.10.22-10.37.21:743][418]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerD650070A4839ACEC93E993AA1281BB90.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.37.21:744][418]LogSavePackage: Total save time: 35.678975ms
+[2015.10.22-10.37.21:744][418]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.37.24:313][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.37.24:313][725]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:37:24 PM)
+[2015.10.22-10.37.24:314][725]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.37.24:315][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001092s)
+[2015.10.22-10.37.24:315][725]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.37.24:315][725]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2015.10.22-10.37.24:315][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.001866s)
+[2015.10.22-10.37.24:315][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.37.24:343][725]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.37.24:352][725]LogInit: FAudioDevice initialized.
+[2015.10.22-10.37.24:384][725]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.37.24:386][725]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.37.24
+[2015.10.22-10.37.24:386][725]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.37.24:386][725]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.37.24:387][725]LogWorld: Bringing up level for play took: 0.001357
+[2015.10.22-10.37.24:389][725]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.147
+[2015.10.22-10.38.05:993][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF1A13F240
+[2015.10.22-10.38.13:836][650]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.38.16:474][958]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.38.16:511][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_67) Not registered. Aborting.
+[2015.10.22-10.38.16:537][958]BlueprintEditorCompileResults: Info [3570.78] Compile of MyPlayer successful! [in 62 ms]
+[2015.10.22-10.38.17:024][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.38.17:060][ 11]LogSavePackage: Save=34.487808ms
+[2015.10.22-10.38.17:060][ 11]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer617F261B49A7346B3BF408BD523EDF34.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.38.17:061][ 11]LogSavePackage: Total save time: 36.346879ms
+[2015.10.22-10.38.17:061][ 11]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.39.34:015][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.39.38:470][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_68) Not registered. Aborting.
+[2015.10.22-10.39.56:431][937]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.39.56:525][937]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_69) Not registered. Aborting.
+[2015.10.22-10.39.56:549][937]BlueprintEditorCompileResults: Info [3670.79] Compile of MyPlayer successful! [in 118 ms]
+[2015.10.22-10.39.56:970][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.39.57:005][983]LogSavePackage: Save=32.512001ms
+[2015.10.22-10.39.57:005][983]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer0CAD8E3443DE3ED7FD90B8B336F40D0D.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.39.57:006][983]LogSavePackage: Total save time: 34.467585ms
+[2015.10.22-10.39.57:006][983]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.39.58:700][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.39.58:700][185]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:39:58 PM)
+[2015.10.22-10.39.58:700][185]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.39.58:701][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001370s)
+[2015.10.22-10.39.58:702][185]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.39.58:702][185]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2015.10.22-10.39.58:702][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002218s)
+[2015.10.22-10.39.58:702][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.39.58:728][185]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.39.58:738][185]LogInit: FAudioDevice initialized.
+[2015.10.22-10.39.58:773][185]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.39.58:775][185]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.39.58
+[2015.10.22-10.39.58:775][185]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.39.58:775][185]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.39.58:775][185]LogWorld: Bringing up level for play took: 0.001173
+[2015.10.22-10.39.58:777][185]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.535
+[2015.10.22-10.40.04:298][839]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF0D91E980
+[2015.10.22-10.40.14:261][962]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.40.14:297][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.40.14:322][962]BlueprintEditorCompileResults: Info [3688.56] Compile of MyPlayer successful! [in 60 ms]
+[2015.10.22-10.40.14:987][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.40.15:016][ 36]LogSavePackage: Save=27.917568ms
+[2015.10.22-10.40.15:016][ 36]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayerE12D5C3B4A0E7B8FF606CEA442F20206.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.40.15:018][ 36]LogSavePackage: Total save time: 30.420225ms
+[2015.10.22-10.40.15:018][ 36]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.40.16:719][239]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.40.16:719][239]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:40:16 PM)
+[2015.10.22-10.40.16:719][239]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.40.16:721][239]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001102s)
+[2015.10.22-10.40.16:721][239]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.40.16:721][239]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2015.10.22-10.40.16:721][239]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.001934s)
+[2015.10.22-10.40.16:721][239]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.40.16:747][239]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.40.16:755][239]LogInit: FAudioDevice initialized.
+[2015.10.22-10.40.16:784][239]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.40.16:786][239]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.40.16
+[2015.10.22-10.40.16:786][239]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_34 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.40.16:786][239]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.40.16:786][239]LogWorld: Bringing up level for play took: 0.001007
+[2015.10.22-10.40.16:788][239]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.546
+[2015.10.22-10.40.22:558][923]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEF09E74C0
+[2015.10.22-10.40.27:845][555]LogEditorTransaction: Undo Delete current selection
+[2015.10.22-10.41.54:069][219]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.41.55:678][410]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.41.55:717][410]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_70) Not registered. Aborting.
+[2015.10.22-10.41.55:741][410]BlueprintEditorCompileResults: Info [3789.98] Compile of MyPlayer successful! [in 62 ms]
+[2015.10.22-10.41.56:099][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.41.56:133][448]LogSavePackage: Save=30.075136ms
+[2015.10.22-10.41.56:133][448]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer043C5BC34B80A5D5AABFA3BBBF4FBCAB.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.41.56:134][448]LogSavePackage: Total save time: 34.490623ms
+[2015.10.22-10.41.56:134][448]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.41.57:443][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.22-10.41.58:833][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.41.58:833][761]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:41:58 PM)
+[2015.10.22-10.41.58:833][761]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.41.58:834][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001443s)
+[2015.10.22-10.41.58:835][761]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.41.58:835][761]LogPlayLevel: PIE: World Init took: (0.000575s)
+[2015.10.22-10.41.58:835][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002146s)
+[2015.10.22-10.41.58:835][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.41.58:862][761]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.41.58:870][761]LogInit: FAudioDevice initialized.
+[2015.10.22-10.41.58:903][761]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.41.58:905][761]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.41.58
+[2015.10.22-10.41.58:905][761]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_35 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.41.58:905][761]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.41.58:905][761]LogWorld: Bringing up level for play took: 0.001135
+[2015.10.22-10.41.58:906][761]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL 0.664
+[2015.10.22-10.42.06:249][633]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF10AF02C0
+[2015.10.22-10.42.10:831][119]LogActor:Warning: GameNetworkManager /Engine/Transient.World_12:PersistentLevel.GameNetworkManager_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.42.52:522][261]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2015.10.22-10.44.39:397][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.44.39:397][522]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:44:39 PM)
+[2015.10.22-10.44.39:397][522]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.44.39:399][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001311s)
+[2015.10.22-10.44.39:399][522]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.44.39:399][522]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2015.10.22-10.44.39:400][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.002232s)
+[2015.10.22-10.44.39:400][522]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.44.39:423][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BF12C79D00
+[2015.10.22-10.44.39:459][522]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.44.39:467][522]LogInit: FAudioDevice initialized.
+[2015.10.22-10.44.39:496][522]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.44.39:498][522]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max tick rate 0) at 2015.10.22-12.44.39
+[2015.10.22-10.44.39:498][522]LogActor:Warning: GameSession /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameSession_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.44.39:499][522]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_MainLVL.MainLVL:PersistentLevel.GameNetworkManager_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.22-10.44.39:499][522]LogWorld: Bringing up level for play took: 0.001512
+[2015.10.22-10.44.39:501][522]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainLVL -0.742
+[2015.10.22-10.44.42:779][904]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BE9177E020
+[2015.10.22-10.46.34:096][  7]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.47.06:288][704]BlueprintLog: New page: Compile MyPlayer
+[2015.10.22-10.47.06:326][704]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_71) Not registered. Aborting.
+[2015.10.22-10.47.06:351][704]BlueprintEditorCompileResults: Info [4100.59] Compile of MyPlayer successful! [in 62 ms]
+[2015.10.22-10.47.07:055][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayer" FILE="../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset" SILENT=true
+[2015.10.22-10.47.07:089][781]LogSavePackage: Save=29.712128ms
+[2015.10.22-10.47.07:089][781]LogSavePackage: Moving '../../../../../../MyGAMES/MyProject2/Saved/MyPlayer14F4BFD649F33AB295C7D18F2A80751C.tmp' to '../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset'
+[2015.10.22-10.47.07:091][781]LogSavePackage: Total save time: 35.597309ms
+[2015.10.22-10.47.07:091][781]LogSavePackage:Warning: Finished SavePackage ../../../../../../MyGAMES/MyProject2/Content/Blueprints/MyPlayer.uasset
+[2015.10.22-10.47.09:667][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.10.22-10.47.09:667][ 12]PIE: New page: PIE session: MainLVL (Oct 22, 2015, 2:47:09 PM)
+[2015.10.22-10.47.09:667][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLVL
+[2015.10.22-10.47.09:669][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001985s)
+[2015.10.22-10.47.09:670][ 12]LogAIModule: Creating AISystem for world MainLVL
+[2015.10.22-10.47.09:670][ 12]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2015.10.22-10.47.09:670][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLVL.MainLVL to /Game/UEDPIE_0_MainLVL.MainLVL (0.003027s)
+[2015.10.22-10.47.09:670][ 12]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.22-10.47.09:726][ 12]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 8 channels at 48 kHz using 32 bits per sample (channel mask 0x63f)
+[2015.10.22-10.47.09:734][ 12]LogInit: FAudioDevice initialized.
+[2015.10.22-10.47.09:764][ 12]LogWorld: Game class is 'MyGamemode_C'
+[2015.10.22-10.47.09:766][ 12]LogWorld: Bringing World /Game/UEDPIE_0_MainLVL.MainLVL up for play (max t
